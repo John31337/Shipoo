@@ -365,37 +365,39 @@ function Stats() {
 
 function How() {
   const domRef = React.useRef();
-  const [percentage] = useVisibiltyPercentage(domRef);
+  const [percentage, position] = useVisibiltyPercentage(domRef);
   const [step, setStep] = useState(0);
 
   const getScrollValue = (item) => {
     var value = 0;
     switch(item) {
       case 1:
-        if(percentage > 0 && percentage <1) 
-          value = percentage * 200;
+        if(position == "top" || percentage >= 0.6) value = 30;
+        else if(percentage > 0 && percentage <0.6) 
+          value = percentage * 50;
         break;
       case 2:
-        if(percentage > 0 && percentage <1) 
-          value += percentage * 200;
+        if(position == "top" || percentage >= 0.6) value = 30;
+        else if(percentage > 0 && percentage <0.6) 
+          value += percentage * 50;
         break;
     }
     return value;
   }
 
   return (
-    <section id="how-to-buy" class="how-to-get wf-section" ref={domRef}>
+    <section id="how-to-buy" class="how-to-get wf-section" ref={domRef} >
         <div class="container-1800">
             <div class="section-heading">
                 <h2 class="h2-what-is-kishu">How to get $KISHU</h2>
                 <div class="accent-large">Add</div>
             </div>
             <div class="dog-frisbee-wrapper">
-                <div id="w-node-_82d26454-4b9c-a99d-09e5-0cacf9e7004a-52018772" class="frisbee-wrapper" style={{willChange: 'transform', transform: `translate3d(${getScrollValue(1)}%, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)`, transformStyle: 'preserve-3d'}}>
+                <div id="w-node-_82d26454-4b9c-a99d-09e5-0cacf9e7004a-52018772" class="frisbee-wrapper" style={{willChange: 'transform', transform: `translate3d(${getScrollValue(1)}em, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)`, transformStyle: 'preserve-3d'}}>
                   <img src={frisbee} loading="lazy" width="1338" sizes="100vw" srcset={`${frisbee_800} 800w, ${frisbee_1080} 1080w, ${frisbee} 2776w`} alt="" class="image-3"/>
                   <img src={shape4} loading="lazy" alt="" class="image-4"/>
                   </div>
-                <div id="w-node-_7c27231e-b663-e33d-3c65-9b4ead67e582-52018772" class="dog-wrapper" style={{willChange: 'transform', transform: `translate3d(-${getScrollValue(2)}%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)`, transformStyle: 'preserve-3d'}}>
+                <div id="w-node-_7c27231e-b663-e33d-3c65-9b4ead67e582-52018772" class="dog-wrapper" style={{willChange: 'transform', transform: `translate3d(-${getScrollValue(2)}em, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)`, transformStyle: 'preserve-3d'}}>
                   <img src={ki_facer} loading="lazy" width="515" sizes="100vw" srcset={`${ki_face_800} 800w, ${ki_facer} 1030w`} alt="" class="image-5"/>
                   <img src={shape3} loading="lazy" sizes="100vw" srcset={`${shape3_500} 500w, ${shape3} 1024w`} alt="" class="image-6"/>
                 </div>
