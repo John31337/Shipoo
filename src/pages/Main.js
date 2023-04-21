@@ -7,7 +7,7 @@ import 'swiper/css';
 
 import Ellipse1 from "../assets/images/Ellipse-1-copy-5.png";
 import Ellipse2 from "../assets/images/Ellipse-1-copy-6.png";
-import big01 from "../assets/images/01-big.gif";
+import big01 from "../assets/images/01-big.png";
 import bowl2x from "../assets/images/bowl2x-p-500.png";
 import dream12 from "../assets/images/dream2x.png";
 
@@ -16,7 +16,7 @@ import instance_reward500 from "../assets/images/instant-rewards---background-no
 import instance_reward800 from "../assets/images/instant-rewards---background-no-kishu-p-800.png";
 import shining_star from "../assets/images/shining-stars-.png";
 import shining_star500 from "../assets/images/shining-stars--p-500.png";
-import v1_small from "../assets/images/02-v1-small.gif";
+import v1_small from "../assets/images/02-v1-small.png";
 import png1 from "../assets/images/1.png";
 import png1_800 from "../assets/images/1-p-800.png";
 import png3 from "../assets/images/3.png";
@@ -64,7 +64,7 @@ import dog_faq_500 from "../assets/images/dog-FAQ-p-500.png";
 import background_shape from "../assets/images/background-shape.png";
 import background_shape_500 from "../assets/images/background-shape-p-500.png";
 import background_shape_800 from "../assets/images/background-shape-p-800.png";
-import v2_big from "../assets/images/08-v2-big.gif";
+import v2_big from "../assets/images/08-v2-big.png";
 
 import donate_qr_code from "../assets/images/donate-qr-code.png";
 import donate_qr_code_500 from "../assets/images/donate-qr-code-p-500.png";
@@ -98,7 +98,7 @@ function Home() {
     <div data-animation="over-right" class="navbar native w-nav" data-easing2="ease" data-easing="ease" data-collapse="medium" role="banner" data-no-scroll="1" data-duration="400" data-doc-height="1">
       <div class="container-1800 is--nav">
         <div class="navbar custom">
-          <a href="#home" id="Kishu-logo" class="brand brand-2 w-node-_6be0c6f3-5804-18a3-23b0-d24feef2e7fe-52018772 w-nav-brand w--current"></a>
+          <a href="#home" id="Shipoo-logo" class="brand brand-2 w-node-_6be0c6f3-5804-18a3-23b0-d24feef2e7fe-52018772 w-nav-brand w--current"></a>
           <nav role="navigation" id="w-node-_6be0c6f3-5804-18a3-23b0-d24feef2e7ff-52018772" class="nav-menu w-nav-menu">
             <div data-hover="true" data-delay="0" class="dropdown w-dropdown" style={{zIndex: hover == 0 ? 901 : 0}} onMouseEnter={() => {setHover(0)}} onMouseLeave={() => {setHover(-1)}}>
               <div class={`dropdown-toggle w-dropdown-toggle ${hover == 0 && 'w--open'}`} id="w-dropdown-toggle-0" aria-controls="w-dropdown-list-0" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0" >
@@ -106,9 +106,9 @@ function Home() {
                 <div class="capitals nav-link is--dropdown">APPS</div>
               </div>
               <nav class={`dropdown-list w-dropdown-list ${hover == 0 && 'w--open'}`} id="w-dropdown-list-0" aria-labelledby="w-dropdown-toggle-0">
-                <a href="https://exchange.kishu.com/" target="_blank" class="dropdown-link w-dropdown-link" tabindex="0">Kishu Swap</a>
+                <a href="https://exchange.kishu.com/" target="_blank" class="dropdown-link w-dropdown-link" tabindex="0">Shipoo Swap</a>
                 <a href="https://exchange.kishu.com/#/paw" target="_blank" class="dropdown-link _2 w-dropdown-link" tabindex="0">Paw Print</a>
-                <a href="https://crate.kishu.com/" target="_blank" class="dropdown-link _2 w-dropdown-link" tabindex="0">Kishu Crate</a>
+                <a href="https://crate.kishu.com/" target="_blank" class="dropdown-link _2 w-dropdown-link" tabindex="0">Shipoo Crate</a>
                 <a href="https://kishuverse.kishu.com/" target="_blank" class="dropdown-link _2 w-dropdown-link" tabindex="0">Kishuverse</a>
               </nav>
             </div>
@@ -141,7 +141,7 @@ function Home() {
                 <div class="capitals nav-link is--dropdown">TOKEN DETAILS</div>
               </div>
               <nav class={`dropdown-list w-dropdown-list ${hover == 3 && 'w--open'}`} id="w-dropdown-list-3" aria-labelledby="w-dropdown-toggle-3">
-                <a href="#why-kishu" class="dropdown-link w-dropdown-link" tabindex="0">Why Kishu?</a>
+                <a href="#why-kishu" class="dropdown-link w-dropdown-link" tabindex="0">Why Shipoo?</a>
                 <a href="https://etherscan.io/token/0xa2b4c0af19cc16a6cfacce81f192b024d625817d" target="_blank" class="dropdown-link _2 w-dropdown-link" tabindex="0">Smart Contract</a>
                 <a href="https://www.certik.org/projects/kishuinu" target="_blank" class="w-dropdown-link" tabindex="0">Certik Security Audit</a>
                 <a href="https://kishu.com/audit" target="_blank" class="dropdown-link _3 w-dropdown-link" tabindex="0">Techrate Security Audit</a>
@@ -149,7 +149,7 @@ function Home() {
               </nav>
             </div>
           </nav>
-          <a id="w-node-_6be0c6f3-5804-18a3-23b0-d24feef2e80c-52018772" href="https://kishu.com/get" target="_blank" class="cta-button is--nav-link w-button">GET $KISHU</a>
+          <a id="w-node-_6be0c6f3-5804-18a3-23b0-d24feef2e80c-52018772" href="https://kishu.com/get" target="_blank" class="cta-button is--nav-link w-button">GET $SHIPOO</a>
           <div class="spacer"/>
           <div class="w-nav-button" style={{"WebkitUserSelect": "text"}} >
             <div class="w-icon-nav-menu"/>
@@ -167,10 +167,10 @@ function Home() {
         <div class="hero-content-wrapper">
             <div class="_2-col-grid is--hero">
                 <div id="w-node-_151b762e-3975-8bd9-09a6-b15858026423-52018772" class="hero-text">
-                    <h1 class="display">Little meme.<br/>Big dream.</h1>
-                    <p class="is--hero-text">Kishu Inu ($KISHU) is a community-focused, decentralized cryptocurrency with instant rewards thanks to active users!🐶<br/></p>
+                    <h1 class="display">Bring your dream to the moon.</h1>
+                    <p class="is--hero-text">Shipoo Inu ($SHIPOO) is a community-focused, decentralized cryptocurrency with instant rewards thanks to active users!🐶<br/></p>
                     <div class="hero-buttons">
-                        <a href="https://kishu.com/get" target="_blank" class="cta-button red-button w-button">GET $KISHU</a>
+                        <a href="https://kishu.com/get" target="_blank" class="cta-button red-button w-button">GET $SHIPOO</a>
                         <a href="https://kishu.com/whitepaper" target="_blank" class="cta-button w-button">WHITEPAPER</a>
                     </div>
                     <div class="hero-buttons">
@@ -196,7 +196,7 @@ function Home() {
                     <a href="https://kishuinu.medium.com/" target="_blank" class="social-icon-item is--hero w-inline-block">
                         <div class="fa-social-icon is--hero"></div>
                     </a>
-                    <a href="https://github.com/Kishu-Inu/Kishu-Inu-Contracts" target="_blank" class="social-icon-item is--hero w-inline-block">
+                    <a href="https://github.com/Shipoo-Inu/Shipoo-Inu-Contracts" target="_blank" class="social-icon-item is--hero w-inline-block">
                         <div class="fa-social-icon is--hero"></div>
                     </a>
                     <a href="https://discord.com/invite/vJJQ5whs7e" target="_blank" class="social-icon-item is--hero w-inline-block">
@@ -213,7 +213,7 @@ function Home() {
         </div>
         <div class="scroll-down-container">
             <a href="#why-kishu" class="scroll-down w-inline-block">
-                <h6 class="purple">WHY KISHU?</h6>
+                <h6 class="purple">WHY SHIPOO?</h6>
                 <div class="arrow is--down"></div>
             </a>
         </div>
@@ -264,14 +264,13 @@ function Why() {
   <section id="why-kishu" class="why-kishu wf-section">
     <div class="container-1800">
         <div class="section-heading is--why-kishu">
-            <div class="accent-large">$Kishu</div>
-            <h2 class="h2-what-is-kishu">Why Kishu?</h2>
+            <div class="accent-large">$Shipoo</div>
+            <h2 class="h2-what-is-kishu">Why Shipoo?</h2>
         </div>
         <div data-w-id="87ebf16d-1406-997c-c236-81e39756dba7" class="why-kishu-scrolling-container" ref={domRef}>
             <div class="_2-col-grid bottom-padding is--sticky">
                 <div id="w-node-_4d01e470-0316-6366-bff1-e94ed46148b2-52018772" class="left-col">
                     <div data-w-id="33305f40-759f-5b1c-d56f-046096d6bea0" class="why-kishu-image" style={{willChange: "transform, opacity", transform: "translate3d(0px, 40px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", transformStyle:"preserve-3d", opacity: getScrollValue(1)}}>
-                      <img src={instance_reward} loading="lazy" width="772" sizes="(max-width: 479px) 100vw, (max-width: 767px) 45vw, 46vw" srcset={`${instance_reward500} 500w, ${instance_reward800} 800w, ${instance_reward} 887w`} alt="" class="what-is-kishu-img"/>
                       <img src={shining_star} loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 45vw, (max-width: 1919px) 46vw, 32vw" srcset={`${shining_star500} 500w, ${shining_star} 618w`} alt="" class="shining-stars"/>
                       <img src={v1_small} loading="lazy" width="1038" alt="" class="image-19"/>
                     </div>
@@ -285,15 +284,15 @@ function Why() {
                 <div id="w-node-bc539372-19b1-6802-b824-1e8e8666fcb6-52018772" class="right-col">
                     <div data-w-id="5c6a93ce-3cd4-9d9a-119c-37c503aa87d6" class="why-kishu-text-item _1" style={{willChange: "transform, opacity", transform: "translate3d(0px, 40px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", transformStyle:"preserve-3d", opacity: getScrollValue(1)}}>
                         <h3>Instant<br/>Usage<br/>Rewards</h3>
-                        <p class="_w-414">For every active user transaction a 2% KISHU reward is granted to holders'; decentralized wallets only, fostering a healthy distributed network and community usage. The more KISHU is actively used, the more rewards are granted!</p>
+                        <p class="_w-414">For every active user transaction a 2% SHIPOO reward is granted to holders'; decentralized wallets only, fostering a healthy distributed network and community usage. The more SHIPOO is actively used, the more rewards are granted!</p>
                     </div>
                     <div id="telegram" data-w-id="cd9039a0-2dd2-5175-0451-9e43e496cf63" class="why-kishu-text-item _2" style={{willChange: "transform, opacity", transform: "translate3d(0px, 40px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", transformStyle:"preserve-3d", opacity: getScrollValue(2)}}>
                         <h3>Community <br/>Powered</h3>
-                        <p class="_w-414">KISHU is fully decentralized and owned by its fun, vibrant community. Our enthusiast volunteers welcome and embrace diverse perspectives to build KISHU into the best community in crypto.</p>
+                        <p class="_w-414">SHIPOO is fully decentralized and owned by its fun, vibrant community. Our enthusiast volunteers welcome and embrace diverse perspectives to build SHIPOO into the best community in crypto.</p>
                     </div>
                     <div data-w-id="050d4163-cfce-5ea7-6bb8-c24dc4660203" class="why-kishu-text-item _3" style={{willChange: "transform, opacity", transform: "translate3d(0px, 40px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", transformStyle:"preserve-3d", opacity: getScrollValue(3)}}>
                         <h3>Secure &amp; Safe</h3>
-                        <p class="_w-414">The $KISHU smart contract has been fully audited by a top specialized team and its LP (Liquidity Pool) tokens <a href="https://etherscan.io/tx/0xab041a6b3bfe65b07e016339d91f712c5b0e8fc60ec64b921fb4b18959fc5427" target="_blank">have been burnt</a>. That means next to zero risk to our users and community from potential bad actors.</p>
+                        <p class="_w-414">The $SHIPOO smart contract has been fully audited by a top specialized team and its LP (Liquidity Pool) tokens <a href="https://etherscan.io/tx/0xab041a6b3bfe65b07e016339d91f712c5b0e8fc60ec64b921fb4b18959fc5427" target="_blank">have been burnt</a>. That means next to zero risk to our users and community from potential bad actors.</p>
                         <a href="https://kishu.com/audit" target="_blank" class="link">See our security audit</a>
                     </div>
                 </div>
@@ -332,8 +331,8 @@ function Stats() {
                           <a href="https://kishuinu.medium.com/passion-venture-capital-an-investment-funds-approach-to-cryptocurrencies-and-memecoins-9b9ae80affa9" target="_blank" class="storycard-contents w-inline-block">
                               <div class="storycard-details-wrapper">
                                   <h6 class="gray regular">APRIL 17, 2022</h6>
-                                  <h4 class="story-title">ByBit — Kishu partnership</h4>
-                                  <p>Kishu Kingdom is by far the biggest project we have ever worked on and its release will mark an unprecedented milestone for Kishu and on that note; how does partnering with one of the big shot exchanges in the crypto world sound to you?</p>
+                                  <h4 class="story-title">ByBit — Shipoo partnership</h4>
+                                  <p>Shipoo Kingdom is by far the biggest project we have ever worked on and its release will mark an unprecedented milestone for Shipoo and on that note; how does partnering with one of the big shot exchanges in the crypto world sound to you?</p>
                               </div>
                               <div class="read-more">
                                   <div class="text-link">Read More</div>
@@ -346,7 +345,7 @@ function Stats() {
                           <a href="https://kishuinu.medium.com/passion-venture-capital-an-investment-funds-approach-to-cryptocurrencies-and-memecoins-9b9ae80affa9" target="_blank" class="storycard-contents w-inline-block">
                               <div class="storycard-details-wrapper">
                                   <h6 class="gray regular">MARCH 20, 2021</h6>
-                                  <h4 class="story-title">Dubai Expo — Kishu Kingdom</h4>
+                                  <h4 class="story-title">Dubai Expo — Shipoo Kingdom</h4>
                                   <p>Several days have passed since the Dubai expo has finished and we are extremely satisfied with how things went.</p>
                               </div>
                               <div class="read-more">
@@ -389,7 +388,7 @@ function How() {
     <section id="how-to-buy" class="how-to-get wf-section" ref={domRef} >
         <div class="container-1800">
             <div class="section-heading">
-                <h2 class="h2-what-is-kishu">How to get $KISHU</h2>
+                <h2 class="h2-what-is-kishu">How to get $SHIPOO</h2>
                 <div class="accent-large">Add</div>
             </div>
             <div class="dog-frisbee-wrapper">
@@ -427,7 +426,7 @@ function How() {
                                 </div>
                                 <div class="htb-text">
                                     <h4>Create a MetaMask Wallet</h4>
-                                    <p>$KISHU token is available on the Ethereum blockchain. MetaMask is a third party ERC20 (Ethereum) browser wallet, and the very best at that! On Google Chrome, visit 
+                                    <p>$SHIPOO token is available on the Ethereum blockchain. MetaMask is a third party ERC20 (Ethereum) browser wallet, and the very best at that! On Google Chrome, visit 
                                       <a href="https://metamask.io/" target="_blank"><strong>metamask.io</strong></a> to download the extension and set up a wallet. On mobile? Get MetaMask's app for <a href="https://metamask.app.link/skAH3BaF99" target="_blank"><strong>iPhone</strong></a> or <a href="https://metamask.app.link/bxwkE8oF99" target="_blank"><strong>Android</strong></a>.</p>
                                 </div>
                             </div>
@@ -451,8 +450,8 @@ function How() {
                                     <div class="htb-number-text">03</div>
                                 </div>
                                 <div class="htb-text">
-                                    <h4 class="heading-3">Visit KISHU Swap<br/></h4>
-                                    <p>You can currently swap ETH and other tokens for $KISHU on <a href="https://kishu.com/get" target="_blank"><strong>KISHU Swap</strong></a>, KISHU's official decentralized exchange! KISHU Swap supports any ERC20 token.<br/></p>
+                                    <h4 class="heading-3">Visit SHIPOO Swap<br/></h4>
+                                    <p>You can currently swap ETH and other tokens for $SHIPOO on <a href="https://kishu.com/get" target="_blank"><strong>SHIPOO Swap</strong></a>, SHIPOO's official decentralized exchange! SHIPOO Swap supports any ERC20 token.<br/></p>
                                 </div>
                             </div>
                         </div>
@@ -463,8 +462,8 @@ function How() {
                                     <div class="htb-number-text">04</div>
                                 </div>
                                 <div class="htb-text">
-                                    <h4 class="heading-3">Swap $ETH for $KISHU<br/></h4>
-                                    <p>Enter the amount of $ETH you would like to swap for $KISHU. Click <strong>Connect Wallet</strong> then <strong>Swap</strong><br/></p>
+                                    <h4 class="heading-3">Swap $ETH for $SHIPOO<br/></h4>
+                                    <p>Enter the amount of $ETH you would like to swap for $SHIPOO. Click <strong>Connect Wallet</strong> then <strong>Swap</strong><br/></p>
                                 </div>
                             </div>
                         </div>
@@ -485,9 +484,9 @@ function Swap() {
             </div>
             <div class="_2-col-grid is--buy">
                 <div id="w-node-_49e2061a-72b7-4e31-7b4d-5724e9708007-52018772" class="buy-kishu-text-container">
-                    <h5>Kishu partners</h5>
-                    <h2>Where to <br/>get $KISHU</h2>
-                    <p class="_w-520">The $KISHU token is currently available on 20+ different exchanges. We continuously look for new partners to join us in offering you new ways to acquire $KISHU.</p>
+                    <h5>Shipoo partners</h5>
+                    <h2>Where to <br/>get $SHIPOO</h2>
+                    <p class="_w-520">The $SHIPOO token is currently available on 20+ different exchanges. We continuously look for new partners to join us in offering you new ways to acquire $SHIPOO.</p>
                 </div>
                 <div id="w-node-d911480a-3aee-85d0-f973-28b1421d5cbb-52018772" class="collection-list-2">
                     <a id="w-node-_4e015e1b-e647-47a8-319d-1f996cb549c6-52018772" href="https://www.mexc.com/exchange/KISHU_USDT" target="_blank" class="logo-container-1 w-inline-block"></a>
@@ -559,7 +558,7 @@ function Stats1() {
                     <div id="w-node-b83854f4-0edc-97bf-60d8-a3002264f576-52018772" class="right-col">
                         <div data-w-id="f260eb35-8ea4-0380-4a92-2422d676718f" class="tokenomics-text-item" style={{willChange: 'opacity, transform', opacity: getScrollValue(1), transform: `translate3d(0px, 40px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)`, transformStyle: 'preserve-3d'}}>
                             <div class="flex-vertical">
-                                <h3 class="red is--tokenomics">$KISHU</h3>
+                                <h3 class="red is--tokenomics">$SHIPOO</h3>
                                 <h5 class="gray">TOKEN SYMBOL</h5>
                             </div>
                             <div class="flex-vertical centered">
@@ -604,11 +603,11 @@ function Swap1() {
             <div class="_2-col-grid is--swap">
                 <div id="w-node-_88bfb55d-1e28-bbc5-88fe-35f39f0986a2-52018772" class="kishu-swap---text-container">
                     <h5>DECENTRALIZED EXCHANGE</h5>
-                    <h2>Kishu Swap</h2>
+                    <h2>Shipoo Swap</h2>
                     <p class="_w-520">
-                    <a href="https://kishu.com/get" target="_blank">KISHU Swap</a> is the official decentralized exchange (DEX) of our community. It gives holders the ability to swap independently among each other any ERC20 token for<br/>another one.<br/><br/>It is powered by <a href="https://uniswap.org/" target="_blank">Uniswap</a>, the safest and most trusted DEX in the world. Furthermore, it acts as the foundation upon which many of KISHU's ongoing community development efforts will build additional features and functionality exclusive to KISHU holders.
+                    <a href="https://kishu.com/get" target="_blank">SHIPOO Swap</a> is the official decentralized exchange (DEX) of our community. It gives holders the ability to swap independently among each other any ERC20 token for<br/>another one.<br/><br/>It is powered by <a href="https://uniswap.org/" target="_blank">Uniswap</a>, the safest and most trusted DEX in the world. Furthermore, it acts as the foundation upon which many of SHIPOO's ongoing community development efforts will build additional features and functionality exclusive to SHIPOO holders.
                     </p>
-                    <a href="https://kishu.com/get" target="_blank" class="cta-button red-button w-button">OPEN KISHU SWAP</a>
+                    <a href="https://kishu.com/get" target="_blank" class="cta-button red-button w-button">OPEN SHIPOO SWAP</a>
                 </div>
                 <div class="purple-paw-wrapper">
                   <img src={purple_paw} loading="lazy" width="837" sizes="(max-width: 479px) 100vw, (max-width: 767px) 45vw, (max-width: 1919px) 46vw, 100vw" srcset={`${purple_paw_500} 500w, ${purple_paw_800} 800w, ${purple_paw} 837w`} alt="" class="purple-paw"/>
@@ -653,7 +652,7 @@ function Moonmap() {
             <div class="section-heading">
                 <div class="accent-large">Liftoff</div>
                 <h2 class="h2-moonmap">Moonmap</h2>
-                <p class="_w-660 centered">KISHU launched on April 17, 2021 and quickly became one of the most popular cryptocurrencies of 2021. This Moonmap is a breathing document that lays out key milestones the community aims to hit to continue rapid and decentralized development and moonlike features!<br/></p>
+                <p class="_w-660 centered">SHIPOO launched on April 17, 2021 and quickly became one of the most popular cryptocurrencies of 2021. This Moonmap is a breathing document that lays out key milestones the community aims to hit to continue rapid and decentralized development and moonlike features!<br/></p>
             </div>
         </div>
         <div class="moonmap-scrolling-wrapper"  ref={domRef}>
@@ -751,7 +750,7 @@ function Moonmap() {
                                 <div class="phase-activities">
                                     <div class="phase-activity-item">
                                         <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
-                                        <p class="no-bottom-padding">KISHU Swap (Decentralize Exchange)<br/></p>
+                                        <p class="no-bottom-padding">SHIPOO Swap (Decentralize Exchange)<br/></p>
                                     </div>
                                     <div class="phase-activity-item">
                                         <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
@@ -782,15 +781,15 @@ function Moonmap() {
                                     </div>
                                     <div class="phase-activity-item">
                                         <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
-                                        <p class="no-bottom-padding">KISHU Crate (NFT Marketplace)<br/></p>
+                                        <p class="no-bottom-padding">SHIPOO Crate (NFT Marketplace)<br/></p>
                                     </div>
                                     <div class="phase-activity-item">
                                         <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
-                                        <p class="no-bottom-padding">KISHU Paw Print (Wallet Tracker)<br/></p>
+                                        <p class="no-bottom-padding">SHIPOO Paw Print (Wallet Tracker)<br/></p>
                                     </div>
                                     <div class="phase-activity-item">
                                         <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
-                                        <p class="no-bottom-padding">KISHU sWag (Merchandise Store)<br/></p>
+                                        <p class="no-bottom-padding">SHIPOO sWag (Merchandise Store)<br/></p>
                                     </div>
                                     <div class="phase-activity-item">
                                         <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
@@ -825,7 +824,7 @@ function Moonmap() {
                                     </div>
                                     <div class="phase-activity-item">
                                         <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark off"/>
-                                        <p class="no-bottom-padding">Kishu Inu Charity Foundation<br/></p>
+                                        <p class="no-bottom-padding">Shipoo Inu Charity Foundation<br/></p>
                                     </div>
                                     <div class="phase-activity-item">
                                         <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark off"/>
@@ -859,35 +858,35 @@ function Swap2() {
                     <div class="faqs-wrapper">
                         <div data-hover="false" data-delay="0" id="w-node-b644311c-3765-421e-8642-ff0721da0d05-52018772" data-w-id="b644311c-3765-421e-8642-ff0721da0d05" class="faq-accordion-item w-dropdown" style={{height: '70px'}}>
                             <div class="faq-toggle w-dropdown-toggle" id="w-dropdown-toggle-4" aria-controls="w-dropdown-list-4" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0">
-                                <h4 class="heading-6">What does Kishu aim to achieve?</h4>
+                                <h4 class="heading-6">What does Shipoo aim to achieve?</h4>
                                 <div data-w-id="b644311c-3765-421e-8642-ff0721da0d09" class="accordion-arrow" style={{transform: `translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(180deg) skew(0deg, 0deg)`, transformStyle: 'preserve-3d'}}>
                                   <img src="https://uploads-ssl.webflow.com/6101679fa72b5557f012bb3c/610176cddafe845d888dde10_arrow%20up.png" loading="lazy" width="18" alt="" class="image-27"/>
                                 </div>
                             </div>
                                 <nav class="dropdown-list-2 w-dropdown-list" id="w-dropdown-list-4" aria-labelledby="w-dropdown-toggle-4">
-                                <a href="#" class="dropdown-link-2 w-dropdown-link" tabindex="0">As stated in our Whitepaper; Kishu aims to bring popular cryptocurrency concepts to the mainstream with ease.<br/>&zwj;<br/>That being said, we aim for Kishu to be turned into a global brand which will have as many real world use cases as possible through partnering up with the biggest companies in various industries, while also helping those in need through charities.</a>
+                                <a href="#" class="dropdown-link-2 w-dropdown-link" tabindex="0">As stated in our Whitepaper; Shipoo aims to bring popular cryptocurrency concepts to the mainstream with ease.<br/>&zwj;<br/>That being said, we aim for Shipoo to be turned into a global brand which will have as many real world use cases as possible through partnering up with the biggest companies in various industries, while also helping those in need through charities.</a>
                             </nav>
                         </div>
                         <div data-hover="false" data-delay="0" data-w-id="42acb64e-3944-ad00-333f-91e5f2e95911" class="faq-accordion-item w-dropdown" style={{height: '70px'}}>
                             <div class="faq-toggle w-dropdown-toggle" id="w-dropdown-toggle-5" aria-controls="w-dropdown-list-5" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0">
-                                <h4 class="heading-6">How does the Kishu reward system work? Where do I get the rewards?</h4>
+                                <h4 class="heading-6">How does the Shipoo reward system work? Where do I get the rewards?</h4>
                                 <div data-w-id="42acb64e-3944-ad00-333f-91e5f2e95915" class="accordion-arrow" style={{transform: `translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(180deg) skew(0deg, 0deg)`, transformStyle: 'preserve-3d'}}>
                                   <img src="https://uploads-ssl.webflow.com/6101679fa72b5557f012bb3c/610176cddafe845d888dde10_arrow%20up.png" loading="lazy" width="18" alt="" class="image-27"/>
                                 </div>
                             </div>
                                 <nav class="dropdown-list-2 w-dropdown-list" id="w-dropdown-list-5" aria-labelledby="w-dropdown-toggle-5">
-                                <a href="#" class="dropdown-link-2 w-dropdown-link" tabindex="0">For every active user's transaction a 2% $KISHU reward is granted to holders’ decentralized wallets only, fostering a healthy distributed network and community usage. <br/><br/><em>The more $KISHU is actively used, the more rewards are granted!</em></a>
+                                <a href="#" class="dropdown-link-2 w-dropdown-link" tabindex="0">For every active user's transaction a 2% $SHIPOO reward is granted to holders’ decentralized wallets only, fostering a healthy distributed network and community usage. <br/><br/><em>The more $SHIPOO is actively used, the more rewards are granted!</em></a>
                             </nav>
                         </div>
                         <div data-hover="false" data-delay="0" data-w-id="38f42a2a-bd19-6de6-cdae-4b233222fc0c" class="faq-accordion-item w-dropdown" style={{height: '70px'}}>
                             <div class="faq-toggle w-dropdown-toggle" id="w-dropdown-toggle-6" aria-controls="w-dropdown-list-6" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0">
-                                <h4 class="heading-6">What is "burning" and why does it matter? Does Kishu burn automatically?</h4>
+                                <h4 class="heading-6">What is "burning" and why does it matter? Does Shipoo burn automatically?</h4>
                                 <div data-w-id="38f42a2a-bd19-6de6-cdae-4b233222fc10" class="accordion-arrow" style={{transform: `translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(180deg) skew(0deg, 0deg)`, transformStyle: 'preserve-3d'}}>
                                   <img src="https://uploads-ssl.webflow.com/6101679fa72b5557f012bb3c/610176cddafe845d888dde10_arrow%20up.png" loading="lazy" width="18" alt="" class="image-27"/>
                                 </div>
                             </div>
                                 <nav class="dropdown-list-2 w-dropdown-list" id="w-dropdown-list-6" aria-labelledby="w-dropdown-toggle-6">
-                                <a href="#" class="dropdown-link-2 w-dropdown-link" tabindex="0">Token burning is the process of permanently removing a portion of tokens from circulation, reducing the total supply.<br/>&zwj;<br/>We have made the burn wallet (<em>0x00...00dEaD</em>) into one of the biggest holders through buy-backs and manually burning most of the founders tokens. Taking into consideration how the reward system works; the more Kishu a wallet holds, the more rewards will be granted; in this case, the more $KISHU&nbsp;in the burn wallet, the more Kishu will be burned with every transaction.</a>
+                                <a href="#" class="dropdown-link-2 w-dropdown-link" tabindex="0">Token burning is the process of permanently removing a portion of tokens from circulation, reducing the total supply.<br/>&zwj;<br/>We have made the burn wallet (<em>0x00...00dEaD</em>) into one of the biggest holders through buy-backs and manually burning most of the founders tokens. Taking into consideration how the reward system works; the more Shipoo a wallet holds, the more rewards will be granted; in this case, the more $SHIPOO&nbsp;in the burn wallet, the more Shipoo will be burned with every transaction.</a>
                             </nav>
                         </div>
                     </div>
@@ -915,7 +914,7 @@ function Team() {
                 </div>
                 <div class="team-text-wrapper">
                     <h2 class="h2-team">Join us</h2>
-                    <p class="_w-660">KISHU is a decentralized group of 20+ volunteers community managers with expertise in development, moderation and group coordination. Feel free to say "Hi!".<br/></p>
+                    <p class="_w-660">SHIPOO is a decentralized group of 20+ volunteers community managers with expertise in development, moderation and group coordination. Feel free to say "Hi!".<br/></p>
                     <div class="hero-buttons">
                         <a href="mailto:woof@kishu.com?subject=Volunteer%20Application" class="cta-button red-button w-button">join US</a>
                         <a href="mailto:woof@kishu.com?subject=Partnership%20Proposal" class="cta-button w-button">PARTNER WITH US</a>
@@ -937,7 +936,7 @@ function Donate() {
           <div class="_2-col-grid is--donate">
               <div id="w-node-_4cfe832b-f15b-0fee-a5f2-47da4f1898fd-52018772" class="donate-text-wrapper">
                   <h2>Feel like <br/>donating?</h2>
-                  <p class="_w-520 is--token-code">As a community-powered project, KISHU runs thanks to its amazing volunteers and generous donors. If you would like to pitch in, use the official ERC20 donation wallet here:<br/><br/>0xB7852D285f31B740318CAb51B<br/>d0E5E7936073725<br/><strong class="bold-text"><br/>Accepted: </strong>Any ERC20 token<strong class="bold-text"><br/>Preferred: </strong>$ETH, $USDC, $KISHU</p>
+                  <p class="_w-520 is--token-code">As a community-powered project, SHIPOO runs thanks to its amazing volunteers and generous donors. If you would like to pitch in, use the official ERC20 donation wallet here:<br/><br/>0xB7852D285f31B740318CAb51B<br/>d0E5E7936073725<br/><strong class="bold-text"><br/>Accepted: </strong>Any ERC20 token<strong class="bold-text"><br/>Preferred: </strong>$ETH, $USDC, $SHIPOO</p>
                   <a href="https://etherscan.io/address/0xB7852D285f31B740318CAb51Bd0E5E7936073725" target="_blank" class="cta-button red-button w-button">View on etherscan</a>
               </div>
               <div id="w-node-_4cfe832b-f15b-0fee-a5f2-47da4f1898fb-52018772" class="donate-imgs">
@@ -998,7 +997,7 @@ function Follow() {
                     <a href="https://kishuinu.medium.com/" target="_blank" class="social-icon-item w-inline-block">
                         <div class="fa-social-icon"></div>
                     </a>
-                    <a href="https://github.com/Kishu-Inu/Kishu-Inu-Contracts" target="_blank" class="social-icon-item w-inline-block">
+                    <a href="https://github.com/Shipoo-Inu/Shipoo-Inu-Contracts" target="_blank" class="social-icon-item w-inline-block">
                         <div class="fa-social-icon"></div>
                     </a>
                     <a href="https://discord.com/invite/vJJQ5whs7e" target="_blank" class="social-icon-item w-inline-block">
@@ -1008,7 +1007,7 @@ function Follow() {
             </div>
         </div>
         <div class="copyright">
-            <p class="white">Copyright © 2021, Kishu Inu</p>
+            <p class="white">Copyright © 2021, Shipoo Inu</p>
         </div>
     </div>
   );
