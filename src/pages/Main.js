@@ -1,4 +1,4 @@
-import React, { useState, useContext, useEffect } from 'react';
+import React, { useState, useContext } from 'react';
 import { useNavigate } from 'react-router';
 import { Wallet } from '../providers/WalletProvider';
 import { useToast } from "@chakra-ui/react";
@@ -11,9 +11,6 @@ import big01 from "../assets/images/01-big.png";
 import bowl2x from "../assets/images/bowl2x-p-500.png";
 import dream12 from "../assets/images/dream2x.png";
 
-import instance_reward from "../assets/images/instant-rewards---background-no-kishu.png";
-import instance_reward500 from "../assets/images/instant-rewards---background-no-kishu-p-500.png";
-import instance_reward800 from "../assets/images/instant-rewards---background-no-kishu-p-800.png";
 import shining_star from "../assets/images/shining-stars-.png";
 import shining_star500 from "../assets/images/shining-stars--p-500.png";
 import v1_small from "../assets/images/02-v1-small.png";
@@ -168,7 +165,7 @@ function Home() {
             <div class="_2-col-grid is--hero">
                 <div id="w-node-_151b762e-3975-8bd9-09a6-b15858026423-52018772" class="hero-text">
                     <h1 class="display">Bring your dream to the moon.</h1>
-                    <p class="is--hero-text">Shipoo Inu ($SHIPOO) is a community-focused, decentralized cryptocurrency with instant rewards thanks to active users!🐶<br/></p>
+                    <p class="is--hero-text">Shipoo CEO ($SHIPOO) is a community-focused, decentralized cryptocurrency with instant rewards thanks to active users!🐶<br/></p>
                     <div class="hero-buttons">
                         <a href="https://kishu.com/get" target="_blank" class="cta-button red-button w-button">GET $SHIPOO</a>
                         <a href="https://kishu.com/whitepaper" target="_blank" class="cta-button w-button">WHITEPAPER</a>
@@ -301,65 +298,6 @@ function Why() {
     </div>    
   </section>
   );  
-}
-
-function Stats() {
-  return (
-  <section id="stats" class="news wf-section">
-      <div class="container-1800">
-          <div class="section-heading is--stats">
-              <div class="accent-large">News</div>
-              <h2 class="h2-what-is-kishu">Recent Stories</h2>
-              <div class="collection-list">
-                  <div class="cards-grid-container">
-                      <div id="w-node-a3b25e54-5b7e-dc6e-e400-3e95dc6ad09d-52018772" class="storycard-wrapper">
-                          <div class="storycard-thumbnail-container"></div>
-                              <a href="https://kishuinu.medium.com/passion-venture-capital-an-investment-funds-approach-to-cryptocurrencies-and-memecoins-9b9ae80affa9" target="_blank" class="storycard-contents w-inline-block">
-                          <div class="storycard-details-wrapper">
-                              <h6 class="gray regular">APRIL&nbsp;19, 2022</h6>
-                              <h4 class="story-title">Passion&nbsp;Venture Capital</h4>
-                              <p>Passion Venture Capital’s team with over 20 years of experience in the financial sector cumulatively. Experts in their industry, covering areas of fund management, banking, corporate advisory.</p>
-                          </div>
-                          <div class="read-more">
-                              <div class="text-link">Read More</div>
-                              <div class="arrow is--down small"></div>
-                          </div>
-                          </a>
-                      </div>
-                      <div id="w-node-a3b25e54-5b7e-dc6e-e400-3e95dc6ad0a4-52018772" class="storycard-wrapper">
-                          <div class="storycard-thumbnail-container-2"></div>
-                          <a href="https://kishuinu.medium.com/passion-venture-capital-an-investment-funds-approach-to-cryptocurrencies-and-memecoins-9b9ae80affa9" target="_blank" class="storycard-contents w-inline-block">
-                              <div class="storycard-details-wrapper">
-                                  <h6 class="gray regular">APRIL 17, 2022</h6>
-                                  <h4 class="story-title">ByBit — Shipoo partnership</h4>
-                                  <p>Shipoo Kingdom is by far the biggest project we have ever worked on and its release will mark an unprecedented milestone for Shipoo and on that note; how does partnering with one of the big shot exchanges in the crypto world sound to you?</p>
-                              </div>
-                              <div class="read-more">
-                                  <div class="text-link">Read More</div>
-                                  <div class="arrow is--down small"></div>
-                              </div>
-                          </a>
-                      </div>
-                      <div id="w-node-a3b25e54-5b7e-dc6e-e400-3e95dc6ad0ab-52018772" class="storycard-wrapper">
-                          <div class="storycard-thumbnail-container-3"></div>
-                          <a href="https://kishuinu.medium.com/passion-venture-capital-an-investment-funds-approach-to-cryptocurrencies-and-memecoins-9b9ae80affa9" target="_blank" class="storycard-contents w-inline-block">
-                              <div class="storycard-details-wrapper">
-                                  <h6 class="gray regular">MARCH 20, 2021</h6>
-                                  <h4 class="story-title">Dubai Expo — Shipoo Kingdom</h4>
-                                  <p>Several days have passed since the Dubai expo has finished and we are extremely satisfied with how things went.</p>
-                              </div>
-                              <div class="read-more">
-                                  <div class="text-link">Read More</div>
-                                  <div class="arrow is--down small"></div>
-                              </div>
-                          </a>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </section>  
-  );    
 }
 
 function How() {
@@ -652,7 +590,7 @@ function Moonmap() {
             <div class="section-heading">
                 <div class="accent-large">Liftoff</div>
                 <h2 class="h2-moonmap">Moonmap</h2>
-                <p class="_w-660 centered">SHIPOO launched on April 17, 2021 and quickly became one of the most popular cryptocurrencies of 2021. This Moonmap is a breathing document that lays out key milestones the community aims to hit to continue rapid and decentralized development and moonlike features!<br/></p>
+                <p class="_w-660 centered">SHIPOO launched on April 17, 2023 and quickly became one of the most popular cryptocurrencies of 2023. This Moonmap is a breathing document that lays out key milestones the community aims to hit to continue rapid and decentralized development and moonlike features!<br/></p>
             </div>
         </div>
         <div class="moonmap-scrolling-wrapper"  ref={domRef}>
@@ -824,7 +762,7 @@ function Moonmap() {
                                     </div>
                                     <div class="phase-activity-item">
                                         <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark off"/>
-                                        <p class="no-bottom-padding">Shipoo Inu Charity Foundation<br/></p>
+                                        <p class="no-bottom-padding">Shipoo CEO Charity Foundation<br/></p>
                                     </div>
                                     <div class="phase-activity-item">
                                         <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark off"/>
@@ -941,7 +879,6 @@ function Donate() {
               </div>
               <div id="w-node-_4cfe832b-f15b-0fee-a5f2-47da4f1898fb-52018772" class="donate-imgs">
                 <img src={donate_qr_code} loading="lazy" width="884" sizes="(max-width: 479px) 100vw, (max-width: 767px) 45vw, (max-width: 1919px) 46vw, 100vw" srcset={`${donate_qr_code_500} 500w, ${donate_qr_code} 777w`} alt="" class="donate-qr-code"/>
-                <img src={big_09} loading="lazy" width="260.5" alt="" class="sleeping-kishu"/>
               </div>
           </div>
           <div class="press-logos-wrapper">
@@ -1007,7 +944,7 @@ function Follow() {
             </div>
         </div>
         <div class="copyright">
-            <p class="white">Copyright © 2021, Shipoo Inu</p>
+            <p class="white">Copyright © 2023, Shipoo CEO</p>
         </div>
     </div>
   );
@@ -1024,7 +961,6 @@ export default function Main() {
       </div>
       <Home/>
       <Why/>
-      <Stats/>
       <How/>
       <Swap/>
       <Stats1/>

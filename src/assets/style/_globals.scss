@@ -1883,6 +1883,7 @@ a{
     -ms-flex-direction:column;
     flex-direction:column
 }
+
 .moonmap-text-scrolling-container{
     height:180vh
 }
@@ -3409,8 +3410,8 @@ background-image:none
     font-size:27px
     }
     ._2-col-grid.is-pawprint{
-    -ms-grid-columns:1fr 1fr;
-    grid-template-columns:1fr 1fr
+        -ms-grid-columns:1fr 1fr;
+        grid-template-columns:1fr 1fr
     }
     .kishu-tailwag.is-full-height{
     height:50%;
