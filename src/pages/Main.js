@@ -91,70 +91,7 @@ import vector_smart_500 from "../assets/images/Vector-Smart-Object2x-p-500.png";
 function Home() {
   const [hover, setHover] = useState(-1);
   return (
-  <section id="home" class="hero wf-section" >
-    <div data-animation="over-right" class="navbar native w-nav" data-easing2="ease" data-easing="ease" data-collapse="medium" role="banner" data-no-scroll="1" data-duration="400" data-doc-height="1">
-      <div class="container-1800 is--nav">
-        <div class="navbar custom">
-          <a href="#home" id="Shipoo-logo" class="brand brand-2 w-node-_6be0c6f3-5804-18a3-23b0-d24feef2e7fe-52018772 w-nav-brand w--current"></a>
-          <nav role="navigation" id="w-node-_6be0c6f3-5804-18a3-23b0-d24feef2e7ff-52018772" class="nav-menu w-nav-menu">
-            <div data-hover="true" data-delay="0" class="dropdown w-dropdown" style={{zIndex: hover == 0 ? 901 : 0}} onMouseEnter={() => {setHover(0)}} onMouseLeave={() => {setHover(-1)}}>
-              <div class={`dropdown-toggle w-dropdown-toggle ${hover == 0 && 'w--open'}`} id="w-dropdown-toggle-0" aria-controls="w-dropdown-list-0" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0" >
-                <div class="icon w-icon-dropdown-toggle" aria-hidden="true"></div>
-                <div class="capitals nav-link is--dropdown">APPS</div>
-              </div>
-              <nav class={`dropdown-list w-dropdown-list ${hover == 0 && 'w--open'}`} id="w-dropdown-list-0" aria-labelledby="w-dropdown-toggle-0">
-                <a href="https://exchange.kishu.com/" target="_blank" class="dropdown-link w-dropdown-link" tabindex="0">Shipoo Swap</a>
-                <a href="https://exchange.kishu.com/#/paw" target="_blank" class="dropdown-link _2 w-dropdown-link" tabindex="0">Paw Print</a>
-                <a href="https://crate.kishu.com/" target="_blank" class="dropdown-link _2 w-dropdown-link" tabindex="0">Shipoo Crate</a>
-                <a href="https://kishuverse.kishu.com/" target="_blank" class="dropdown-link _2 w-dropdown-link" tabindex="0">Kishuverse</a>
-              </nav>
-            </div>
-            <div data-hover="true" data-delay="0" class="dropdown w-dropdown" style={{zIndex: hover == 1 ? 901 : 0}} onMouseEnter={() => {setHover(1)}} onMouseLeave={() => {setHover(-1)}}>
-              <div class={`dropdown-toggle w-dropdown-toggle ${hover == 1 && 'w--open'}`} id="w-dropdown-toggle-1" aria-controls="w-dropdown-list-1" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0" >
-                <div class="icon w-icon-dropdown-toggle" aria-hidden="true"></div>
-                <div class="capitals nav-link is--dropdown">COMMUNITY</div>
-              </div>
-              <nav class={`dropdown-list w-dropdown-list ${hover == 1 && 'w--open'}`} id="w-dropdown-list-1" aria-labelledby="w-dropdown-toggle-1" >
-                <a href="#team" class="dropdown-link w-dropdown-link" tabindex="0">Join Us</a>
-                <a href="#donate" class="dropdown-link _2 w-dropdown-link" tabindex="0">Donate</a>
-                <a href="https://t.me/KishuInuCommunity" target="_blank" class="dropdown-link w-dropdown-link" tabindex="0">Telegram</a>
-                <a href="https://discord.com/invite/vJJQ5whs7e" target="_blank" class="w-dropdown-link" tabindex="0">Discord</a>
-              </nav>
-            </div>
-            <div data-hover="true" data-delay="0" class="dropdown w-dropdown" style={{zIndex: hover == 2 ? 901 : 0}} onMouseEnter={() => {setHover(2)}} onMouseLeave={() => {setHover(-1)}}>
-              <div class={`dropdown-toggle w-dropdown-toggle ${hover == 2 && 'w--open'}`} id="w-dropdown-toggle-2" aria-controls="w-dropdown-list-2" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0">
-                <div class="icon w-icon-dropdown-toggle" aria-hidden="true"></div>
-                <div class="capitals nav-link is--dropdown">price chart</div>
-              </div>
-              <nav class={`dropdown-list w-dropdown-list ${hover == 2 && 'w--open'}`} id="w-dropdown-list-2" aria-labelledby="w-dropdown-toggle-2">
-                <a href="https://www.dextools.io/app/uniswap/pair-explorer/0xf82d8ec196fb0d56c6b82a8b1870f09502a49f88" target="_blank" class="dropdown-link w-dropdown-link" tabindex="0">Dextools</a>
-                <a href="https://coinmarketcap.com/currencies/kishu-inu/" target="_blank" class="dropdown-link _2 w-dropdown-link" tabindex="0">CoinmarketCap</a>
-                <a href="https://www.coingecko.com/en/coins/kishu-inu" target="_blank" class="dropdown-link _3 w-dropdown-link" tabindex="0">CoinGecko</a>
-              </nav>
-            </div>
-            <div data-hover="true" data-delay="0" class="dropdown w-dropdown" style={{zIndex: hover == 3 ? 901 : 0}} onMouseEnter={() => {setHover(3)}} onMouseLeave={() => {setHover(-1)}}>
-              <div class={`dropdown-toggle w-dropdown-toggle ${hover == 3 && 'w--open'}`} id="w-dropdown-toggle-3" aria-controls="w-dropdown-list-3" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0">
-                <div class="icon w-icon-dropdown-toggle" aria-hidden="true"></div>
-                <div class="capitals nav-link is--dropdown">TOKEN DETAILS</div>
-              </div>
-              <nav class={`dropdown-list w-dropdown-list ${hover == 3 && 'w--open'}`} id="w-dropdown-list-3" aria-labelledby="w-dropdown-toggle-3">
-                <a href="#why-kishu" class="dropdown-link w-dropdown-link" tabindex="0">Why Shipoo?</a>
-                <a href="https://etherscan.io/token/0xa2b4c0af19cc16a6cfacce81f192b024d625817d" target="_blank" class="dropdown-link _2 w-dropdown-link" tabindex="0">Smart Contract</a>
-                <a href="https://www.certik.org/projects/kishuinu" target="_blank" class="w-dropdown-link" tabindex="0">Certik Security Audit</a>
-                <a href="https://kishu.com/audit" target="_blank" class="dropdown-link _3 w-dropdown-link" tabindex="0">Techrate Security Audit</a>
-                <a href="https://kishu.com/whitepaper" target="_blank" class="dropdown-link _3 w-dropdown-link" tabindex="0">Whitepaper</a>
-              </nav>
-            </div>
-          </nav>
-          <a id="w-node-_6be0c6f3-5804-18a3-23b0-d24feef2e80c-52018772" href="https://kishu.com/get" target="_blank" class="cta-button is--nav-link w-button">GET $SHIPOO</a>
-          <div class="spacer"/>
-          <div class="w-nav-button" style={{"WebkitUserSelect": "text"}} >
-            <div class="w-icon-nav-menu"/>
-          </div>
-        </div>
-      </div>
-      <div class="w-nav-overlay" data-wf-ignore="" id="w-nav-overlay-0"/>
-    </div>
+  <section id="home" class="hero wf-section">
     <div class="background-image is--hero"/>
     <div class="floating-elements-container">
         <div class="fl-element v1"><img src={Ellipse1} loading="lazy" alt=""/></div>
@@ -207,12 +144,6 @@ function Home() {
                     <img src={dream12} loading="lazy" width="193" alt="" class="kishu-dreambubble"/>
                 </div>
             </div>
-        </div>
-        <div class="scroll-down-container">
-            <a href="#why-kishu" class="scroll-down w-inline-block">
-                <h6 class="purple">WHY SHIPOO?</h6>
-                <div class="arrow is--down"></div>
-            </a>
         </div>
     </div>
   </section>
@@ -289,7 +220,7 @@ function Why() {
                     </div>
                     <div data-w-id="050d4163-cfce-5ea7-6bb8-c24dc4660203" class="why-kishu-text-item _3" style={{willChange: "transform, opacity", transform: "translate3d(0px, 40px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", transformStyle:"preserve-3d", opacity: getScrollValue(3)}}>
                         <h3>Secure &amp; Safe</h3>
-                        <p class="_w-414">The $SHIPOO smart contract has been fully audited by a top specialized team and its LP (Liquidity Pool) tokens <a href="https://etherscan.io/tx/0xab041a6b3bfe65b07e016339d91f712c5b0e8fc60ec64b921fb4b18959fc5427" target="_blank">have been burnt</a>. That means next to zero risk to our users and community from potential bad actors.</p>
+                        <p class="_w-414">The $SHIPOO smart contract has been fully audited by a top specialized team and its LP (Liquidity Pool) tokens have been burnt. That means next to zero risk to our users and community from potential bad actors.</p>
                         <a href="https://kishu.com/audit" target="_blank" class="link">See our security audit</a>
                     </div>
                 </div>
@@ -329,85 +260,84 @@ function How() {
                 <h2 class="h2-what-is-kishu">How to get $SHIPOO</h2>
                 <div class="accent-large">Add</div>
             </div>
-            <div class="dog-frisbee-wrapper">
-                <div id="w-node-_82d26454-4b9c-a99d-09e5-0cacf9e7004a-52018772" class="frisbee-wrapper" style={{willChange: 'transform', transform: `translate3d(${getScrollValue(1)}em, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)`, transformStyle: 'preserve-3d'}}>
-                  <img src={frisbee} loading="lazy" width="1338" sizes="100vw" srcset={`${frisbee_800} 800w, ${frisbee_1080} 1080w, ${frisbee} 2776w`} alt="" class="image-3"/>
-                  <img src={shape4} loading="lazy" alt="" class="image-4"/>
+            <div class="steps-container" style={{display: 'flex'}}>
+              <div class="htbs-wrapper">
+                  <div data-duration-in="300" data-duration-out="100" data-current="Tab 1" data-easing="ease" class="tabs w-tabs">
+                      <div class="tabs-menu w-tab-menu" role="tablist">
+                        <a data-w-tab="Tab 1" class={`htb-tab w-inline-block w-tab-link ${step == 0 ? 'w--current' : ''} `} id="w-tabs-0-data-w-tab-0" onClick={() => {setStep(0)}}>
+                            <h6 class="htb-tab">STEP 1</h6>
+                        </a>
+                        <a data-w-tab="Tab 2" class={`htb-tab w-inline-block w-tab-link ${step == 1 ? 'w--current' : ''} `} id="w-tabs-0-data-w-tab-1" onClick={()=> {setStep(1)}}>
+                            <h6 class="htb-tab">STEP 2</h6>
+                        </a>
+                        <a data-w-tab="Tab 3" class={`htb-tab w-inline-block w-tab-link ${step == 2 ? 'w--current' : ''} `} id="w-tabs-0-data-w-tab-2" onClick={()=> {setStep(2)}} >
+                            <h6 class="htb-tab">STEP 3</h6>
+                        </a>
+                        <a data-w-tab="Tab 4" class={`htb-tab w-inline-block w-tab-link ${step == 3 ? 'w--current' : ''} `} id="w-tabs-0-data-w-tab-3"  onClick={()=> {setStep(3)}}>
+                            <h6 class="htb-tab">STEP 4</h6>
+                        </a>
+                      </div>
+                      <div class="tabs-content w-tab-content">
+                          <div data-w-tab="Tab 1" class={`w-tab-pane ${step == 0 ? 'w--tab-active' : ''}`} id="w-tabs-0-data-w-pane-0" role="tabpanel" aria-labelledby="w-tabs-0-data-w-tab-0">
+                              <div class="htb-item">
+                                  <div class="htb-number">
+                                      <img src={htb_shape} loading="lazy" alt="" class="htb-shape"/>
+                                      <div class="htb-number-text">01</div>
+                                  </div>
+                                  <div class="htb-text">
+                                      <h4>Create a MetaMask Wallet</h4>
+                                      <p>$SHIPOO token is available on the Ethereum blockchain. MetaMask is a third party ERC20 (Ethereum) browser wallet, and the very best at that! On Google Chrome, visit 
+                                        <a href="https://metamask.io/" target="_blank"><strong>metamask.io</strong></a> to download the extension and set up a wallet. On mobile? Get MetaMask's app for <a href="https://metamask.app.link/skAH3BaF99" target="_blank"><strong>iPhone</strong></a> or <a href="https://metamask.app.link/bxwkE8oF99" target="_blank"><strong>Android</strong></a>.</p>
+                                  </div>
+                              </div>
+                          </div>
+                          <div data-w-tab="Tab 2" class={`tab-pane-tab-2 w-tab-pane ${step == 1 ? 'w--tab-active' : ''}`} role="tabpanel" aria-labelledby="w-tabs-0-data-w-tab-1">
+                              <div class="htb-item">
+                                  <div class="htb-number">
+                                      <img src={htb_shape} loading="lazy" alt="" class="htb-shape"/>
+                                      <div class="htb-number-text">02</div>
+                                  </div>
+                                  <div class="htb-text">
+                                      <h4 class="heading-3">Send $ETH to MetaMask<br/></h4>
+                                      <p>Acquire Ethereum through MetaMask itself or transfer it to your MetaMask wallet address from another wallet (e.g. Coinbase or Binance).<br/></p>
+                                  </div>
+                              </div>
+                          </div>
+                          <div data-w-tab="Tab 3" class={`w-tab-pane ${step == 2 ? 'w--tab-active' : ''}`} id="w-tabs-0-data-w-pane-2" role="tabpanel" aria-labelledby="w-tabs-0-data-w-tab-2">
+                              <div class="htb-item">
+                                  <div class="htb-number">
+                                      <img src={htb_shape} loading="lazy" alt="" class="htb-shape"/>
+                                      <div class="htb-number-text">03</div>
+                                  </div>
+                                  <div class="htb-text">
+                                      <h4 class="heading-3">Visit SHIPOO Swap<br/></h4>
+                                      <p>You can currently swap ETH and other tokens for $SHIPOO on <a href="https://kishu.com/get" target="_blank"><strong>SHIPOO Swap</strong></a>, SHIPOO's official decentralized exchange! SHIPOO Swap supports any ERC20 token.<br/></p>
+                                  </div>
+                              </div>
+                          </div>
+                          <div data-w-tab="Tab 4" class={`w-tab-pane ${step == 3 ? 'w--tab-active' : ''}`} id="w-tabs-0-data-w-pane-3" role="tabpanel" aria-labelledby="w-tabs-0-data-w-tab-3">
+                              <div class="htb-item">
+                                  <div class="htb-number">
+                                      <img src={htb_shape} loading="lazy" alt="" class="htb-shape"/>
+                                      <div class="htb-number-text">04</div>
+                                  </div>
+                                  <div class="htb-text">
+                                      <h4 class="heading-3">Swap $ETH for $SHIPOO<br/></h4>
+                                      <p>Enter the amount of $ETH you would like to swap for $SHIPOO. Click <strong>Connect Wallet</strong> then <strong>Swap</strong><br/></p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
                   </div>
-                <div id="w-node-_7c27231e-b663-e33d-3c65-9b4ead67e582-52018772" class="dog-wrapper" style={{willChange: 'transform', transform: `translate3d(-${getScrollValue(2)}em, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)`, transformStyle: 'preserve-3d'}}>
-                  <img src={ki_facer} loading="lazy" width="515" sizes="100vw" srcset={`${ki_face_800} 800w, ${ki_facer} 1030w`} alt="" class="image-5"/>
-                  <img src={shape3} loading="lazy" sizes="100vw" srcset={`${shape3_500} 500w, ${shape3} 1024w`} alt="" class="image-6"/>
-                </div>
+              </div>              
+              <div class="dog-frisbee-wrapper">
+                  <div id="w-node-_82d26454-4b9c-a99d-09e5-0cacf9e7004a-52018772" class="frisbee-wrapper">
+                    <img src={ki_facer} loading="lazy" width="515" sizes="100vw" srcset={`${ki_face_800} 800w, ${ki_facer} 1030w`} alt="" class="image-5"/>
+                    <img src={shape3} loading="lazy" sizes="100vw" srcset={`${shape3_500} 500w, ${shape3} 1024w`} alt="" class="image-6"/>
+                  </div>
+              </div>
             </div>
-            <div class="htbs-wrapper">
-                <div data-duration-in="300" data-duration-out="100" data-current="Tab 1" data-easing="ease" class="tabs w-tabs">
-                    <div class="tabs-menu w-tab-menu" role="tablist">
-                      <a data-w-tab="Tab 1" class={`htb-tab w-inline-block w-tab-link ${step == 0 ? 'w--current' : ''} `} id="w-tabs-0-data-w-tab-0" onClick={() => {setStep(0)}}>
-                          <h6 class="htb-tab">STEP 1</h6>
-                      </a>
-                      <a data-w-tab="Tab 2" class={`htb-tab w-inline-block w-tab-link ${step == 1 ? 'w--current' : ''} `} id="w-tabs-0-data-w-tab-1" onClick={()=> {setStep(1)}}>
-                          <h6 class="htb-tab">STEP 2</h6>
-                      </a>
-                      <a data-w-tab="Tab 3" class={`htb-tab w-inline-block w-tab-link ${step == 2 ? 'w--current' : ''} `} id="w-tabs-0-data-w-tab-2" onClick={()=> {setStep(2)}} >
-                          <h6 class="htb-tab">STEP 3</h6>
-                      </a>
-                      <a data-w-tab="Tab 4" class={`htb-tab w-inline-block w-tab-link ${step == 3 ? 'w--current' : ''} `} id="w-tabs-0-data-w-tab-3"  onClick={()=> {setStep(3)}}>
-                          <h6 class="htb-tab">STEP 4</h6>
-                      </a>
-                    </div>
-                    <div class="tabs-content w-tab-content">
-                        <div data-w-tab="Tab 1" class={`w-tab-pane ${step == 0 ? 'w--tab-active' : ''}`} id="w-tabs-0-data-w-pane-0" role="tabpanel" aria-labelledby="w-tabs-0-data-w-tab-0">
-                            <div class="htb-item">
-                                <div class="htb-number">
-                                    <img src={htb_shape} loading="lazy" alt="" class="htb-shape"/>
-                                    <div class="htb-number-text">01</div>
-                                </div>
-                                <div class="htb-text">
-                                    <h4>Create a MetaMask Wallet</h4>
-                                    <p>$SHIPOO token is available on the Ethereum blockchain. MetaMask is a third party ERC20 (Ethereum) browser wallet, and the very best at that! On Google Chrome, visit 
-                                      <a href="https://metamask.io/" target="_blank"><strong>metamask.io</strong></a> to download the extension and set up a wallet. On mobile? Get MetaMask's app for <a href="https://metamask.app.link/skAH3BaF99" target="_blank"><strong>iPhone</strong></a> or <a href="https://metamask.app.link/bxwkE8oF99" target="_blank"><strong>Android</strong></a>.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div data-w-tab="Tab 2" class={`tab-pane-tab-2 w-tab-pane ${step == 1 ? 'w--tab-active' : ''}`} role="tabpanel" aria-labelledby="w-tabs-0-data-w-tab-1">
-                            <div class="htb-item">
-                                <div class="htb-number">
-                                    <img src={htb_shape} loading="lazy" alt="" class="htb-shape"/>
-                                    <div class="htb-number-text">02</div>
-                                </div>
-                                <div class="htb-text">
-                                    <h4 class="heading-3">Send $ETH to MetaMask<br/></h4>
-                                    <p>Acquire Ethereum through MetaMask itself or transfer it to your MetaMask wallet address from another wallet (e.g. Coinbase or Binance).<br/></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div data-w-tab="Tab 3" class={`w-tab-pane ${step == 2 ? 'w--tab-active' : ''}`} id="w-tabs-0-data-w-pane-2" role="tabpanel" aria-labelledby="w-tabs-0-data-w-tab-2">
-                            <div class="htb-item">
-                                <div class="htb-number">
-                                    <img src={htb_shape} loading="lazy" alt="" class="htb-shape"/>
-                                    <div class="htb-number-text">03</div>
-                                </div>
-                                <div class="htb-text">
-                                    <h4 class="heading-3">Visit SHIPOO Swap<br/></h4>
-                                    <p>You can currently swap ETH and other tokens for $SHIPOO on <a href="https://kishu.com/get" target="_blank"><strong>SHIPOO Swap</strong></a>, SHIPOO's official decentralized exchange! SHIPOO Swap supports any ERC20 token.<br/></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div data-w-tab="Tab 4" class={`w-tab-pane ${step == 3 ? 'w--tab-active' : ''}`} id="w-tabs-0-data-w-pane-3" role="tabpanel" aria-labelledby="w-tabs-0-data-w-tab-3">
-                            <div class="htb-item">
-                                <div class="htb-number">
-                                    <img src={htb_shape} loading="lazy" alt="" class="htb-shape"/>
-                                    <div class="htb-number-text">04</div>
-                                </div>
-                                <div class="htb-text">
-                                    <h4 class="heading-3">Swap $ETH for $SHIPOO<br/></h4>
-                                    <p>Enter the amount of $ETH you would like to swap for $SHIPOO. Click <strong>Connect Wallet</strong> then <strong>Swap</strong><br/></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
         </div>
     </section>
   );
