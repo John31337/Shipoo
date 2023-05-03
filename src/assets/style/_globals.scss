@@ -630,6 +630,10 @@ a{
     -ms-flex-align:center;
     align-items:center
 }
+.hero-buttons-social{
+    display: flex;
+    flex-direction: row;
+}
 .scroll-down{
     position:static;
     left:0%;
@@ -1304,7 +1308,7 @@ a{
 .is--hero-text{
     max-width:589px;
     min-width:327px;
-    margin-bottom:1.7em;
+    margin-bottom:4em;
     color: #fff;
 }
 .dog-bowl{
@@ -2184,7 +2188,6 @@ a{
     width:3.13em;
     height:3.13em;
     margin-right:.78em;
-    margin-bottom:1.56em;
     margin-left:.78em;
     -webkit-box-pack:center;
     -webkit-justify-content:center;
@@ -3559,9 +3562,6 @@ background-image:none
     .capitals.nav-link.is--back-to-top{
         font-size:14px
     }
-    .hero{
-        height:150vh
-    }
     .background-image.is--hero{
         background-position:0% 0%;
         background-size:cover
@@ -3661,14 +3661,14 @@ background-image:none
     }
     .hero-buttons{
         width:100%;
-        height:4em;
+        height:10em;
         margin-right:auto;
         margin-left:auto;
         -webkit-box-orient:horizontal;
         -webkit-box-direction:normal;
-        -webkit-flex-direction:row;
-        -ms-flex-direction:row;
-        flex-direction:row;
+        -webkit-flex-direction:column;
+        -ms-flex-direction:column;
+        flex-direction:column;
         -webkit-box-pack:justify;
         -webkit-justify-content:space-between;
         -ms-flex-pack:justify;
@@ -3677,6 +3677,10 @@ background-image:none
         -webkit-align-items:center;
         -ms-flex-align:center;
         align-items:center
+    }
+    .hero-buttons-social{
+        display: flex;
+        flex-direction: row;
     }
     .why-kishu{
         position:static;

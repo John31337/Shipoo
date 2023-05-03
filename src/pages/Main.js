@@ -105,22 +105,17 @@ function Home() {
                     <p class="is--hero-text">Shipoo CEO ($SHIPOO) is a community-focused, decentralized cryptocurrency with instant rewards thanks to active users!🐶<br/></p>
                     <div class="hero-buttons">
                         <a href="https://kishu.com/get" target="_blank" class="cta-button red-button w-button">GET $SHIPOO</a>
-                        <a href="https://kishu.com/whitepaper" target="_blank" class="cta-button w-button">WHITEPAPER</a>
-                    </div>
-                    <div class="hero-buttons">
-                        <a href="https://exchange.kishu.com/#/swap?inputCurrency=ETH&amp;outputCurrency=0x52662717e448be36Cb54588499D5A8328BD95292" target="_blank" class="cta-button tenshi w-button">GET $TENSHI</a>
-                        <a href="https://www.tenshicoin.io/" target="_blank" class="cta-button tenshi w-button">$TENSHI&nbsp;WEB</a>
-                    </div>
-                    <div class="social-icons is--hero">
-                        <a href="https://t.me/kishuinucommunity" target="_blank" class="social-icon-item is--hero w-inline-block">
-                            <div class="fa-social-icon is--hero"></div>
-                        </a>
-                        <a href="https://twitter.com/inukishu" target="_blank" class="social-icon-item is--hero w-inline-block">
-                            <div class="fa-social-icon is--hero"></div>
-                        </a>
-                        <a href="https://kishuinu.medium.com/" target="_blank" class="social-icon-item is--hero w-inline-block">
-                            <div class="fa-social-icon is--hero"></div>
-                        </a>
+                        <div class="hero-buttons-social">
+                            <a href="https://t.me/kishuinucommunity" target="_blank" class="social-icon-item is--hero w-inline-block">
+                                <div class="fa-social-icon is--hero"></div>
+                            </a>
+                            <a href="https://twitter.com/inukishu" target="_blank" class="social-icon-item is--hero w-inline-block">
+                                <div class="fa-social-icon is--hero"></div>
+                            </a>
+                            <a href="https://kishuinu.medium.com/" target="_blank" class="social-icon-item is--hero w-inline-block">
+                                <div class="fa-social-icon is--hero"></div>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div id="w-node-c5f9f19b-7168-f059-943c-ccb78b848fa7-52018772" class="hero-graphics-wrapper">
