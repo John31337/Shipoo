@@ -2098,6 +2098,14 @@ a{
     z-index:3;
     padding:32px
 }
+.unicorn-poop {
+    position:absolute;
+    right:4em;
+    top:auto;
+    bottom:3em;
+    z-index:3;
+    padding:32px
+}
 .footer-relative-wrapper{
     position:relative;
     z-index:1;
@@ -4041,10 +4049,13 @@ background-image:none
     position:relative
     }
     .unicorn-kishu{
-    position:relative;
-    left:-1em;
-    top:-73px;
-    padding:35px
+        position:relative;
+        left:-1em;
+        top:-73px;
+        padding:35px
+    }
+    .unicorn-poop {
+        display: none;
     }
     .logo-and-social-wrapper{
     padding-top:3.13em
@@ -5192,4 +5203,10 @@ font-display:swap
     font-weight:400;
     font-style:normal;
     font-display:swap
+}
+
+a.disabled {
+    pointer-events: none;
+    cursor: default;
+    color: grey;
 }

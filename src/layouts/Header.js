@@ -17,10 +17,9 @@ export default function Header({ page }) {
                         <div class="capitals nav-link is--dropdown">COMMUNITY</div>
                         </div>
                         <nav class={`dropdown-list w-dropdown-list ${hover == 1 && 'w--open'}`} id="w-dropdown-list-1" aria-labelledby="w-dropdown-toggle-1" >
-                        <a href="#team" class="dropdown-link w-dropdown-link" tabindex="0">Join Us</a>
-                        <a href="#donate" class="dropdown-link _2 w-dropdown-link" tabindex="0">Donate</a>
-                        <a href="https://t.me/KishuInuCommunity" target="_blank" class="dropdown-link w-dropdown-link" tabindex="0">Telegram</a>
-                        <a href="https://discord.com/invite/vJJQ5whs7e" target="_blank" class="w-dropdown-link" tabindex="0">Discord</a>
+                            <a href="#team" class="dropdown-link w-dropdown-link" tabindex="0">Join Us</a>
+                            <a href="#Twitter" class="dropdown-link _2 w-dropdown-link" tabindex="0">Twitter</a>
+                            <a href="https://t.me/KishuInuCommunity" target="_blank" class="dropdown-link w-dropdown-link" tabindex="0">Telegram</a>
                         </nav>
                     </div>
                     <div data-hover="true" data-delay="0" class="dropdown w-dropdown" style={{zIndex: hover == 2 ? 901 : 0}} onMouseEnter={() => {setHover(2)}} onMouseLeave={() => {setHover(-1)}}>
@@ -29,9 +28,9 @@ export default function Header({ page }) {
                         <div class="capitals nav-link is--dropdown">price chart</div>
                         </div>
                         <nav class={`dropdown-list w-dropdown-list ${hover == 2 && 'w--open'}`} id="w-dropdown-list-2" aria-labelledby="w-dropdown-toggle-2">
-                        <a href="https://www.dextools.io/app/uniswap/pair-explorer/0xf82d8ec196fb0d56c6b82a8b1870f09502a49f88" target="_blank" class="dropdown-link w-dropdown-link" tabindex="0">Dextools</a>
-                        <a href="https://coinmarketcap.com/currencies/kishu-inu/" target="_blank" class="dropdown-link _2 w-dropdown-link" tabindex="0">CoinmarketCap</a>
-                        <a href="https://www.coingecko.com/en/coins/kishu-inu" target="_blank" class="dropdown-link _3 w-dropdown-link" tabindex="0">CoinGecko</a>
+                            <a href="https://www.dextools.io/app/uniswap/pair-explorer/0xf82d8ec196fb0d56c6b82a8b1870f09502a49f88" target="_blank" class="dropdown-link w-dropdown-link" tabindex="0">Dextools</a>
+                            <a href="https://coinmarketcap.com/currencies/kishu-inu/" target="_blank" class="dropdown-link _2 w-dropdown-link disabled" tabindex="0">CoinmarketCap</a>
+                            <a href="https://www.coingecko.com/en/coins/kishu-inu" target="_blank" class="dropdown-link _3 w-dropdown-link disabled" tabindex="0">CoinGecko</a>
                         </nav>
                     </div>
                     <div data-hover="true" data-delay="0" class="dropdown w-dropdown" style={{zIndex: hover == 3 ? 901 : 0}} onMouseEnter={() => {setHover(3)}} onMouseLeave={() => {setHover(-1)}}>
@@ -40,11 +39,8 @@ export default function Header({ page }) {
                         <div class="capitals nav-link is--dropdown">TOKEN DETAILS</div>
                         </div>
                         <nav class={`dropdown-list w-dropdown-list ${hover == 3 && 'w--open'}`} id="w-dropdown-list-3" aria-labelledby="w-dropdown-toggle-3">
-                        <a href="#why-kishu" class="dropdown-link w-dropdown-link" tabindex="0">Why Shipoo?</a>
-                        <a href="https://etherscan.io/token/0xa2b4c0af19cc16a6cfacce81f192b024d625817d" target="_blank" class="dropdown-link _2 w-dropdown-link" tabindex="0">Smart Contract</a>
-                        <a href="https://www.certik.org/projects/kishuinu" target="_blank" class="w-dropdown-link" tabindex="0">Certik Security Audit</a>
-                        <a href="https://kishu.com/audit" target="_blank" class="dropdown-link _3 w-dropdown-link" tabindex="0">Techrate Security Audit</a>
-                        <a href="https://kishu.com/whitepaper" target="_blank" class="dropdown-link _3 w-dropdown-link" tabindex="0">Whitepaper</a>
+                            <a href="#why-kishu" class="dropdown-link w-dropdown-link" tabindex="0">Why Shipoo?</a>
+                            <a href="https://etherscan.io/token/0xa2b4c0af19cc16a6cfacce81f192b024d625817d" target="_blank" class="dropdown-link _2 w-dropdown-link" tabindex="0">Smart Contract</a>
                         </nav>
                     </div>
                     </nav>
