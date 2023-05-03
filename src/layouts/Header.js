@@ -11,18 +11,6 @@ export default function Header({ page }) {
                 <div class="navbar custom">
                     <a href="#home" id="Shipoo-logo" class="brand brand-2 w-node-_6be0c6f3-5804-18a3-23b0-d24feef2e7fe-52018772 w-nav-brand w--current"></a>
                     <nav role="navigation" id="w-node-_6be0c6f3-5804-18a3-23b0-d24feef2e7ff-52018772" class="nav-menu w-nav-menu">
-                    <div data-hover="true" data-delay="0" class="dropdown w-dropdown" style={{zIndex: hover == 0 ? 901 : 0}} onMouseEnter={() => {setHover(0)}} onMouseLeave={() => {setHover(-1)}}>
-                        <div class={`dropdown-toggle w-dropdown-toggle ${hover == 0 && 'w--open'}`} id="w-dropdown-toggle-0" aria-controls="w-dropdown-list-0" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0" >
-                        <div class="icon w-icon-dropdown-toggle" aria-hidden="true"></div>
-                        <div class="capitals nav-link is--dropdown">APPS</div>
-                        </div>
-                        <nav class={`dropdown-list w-dropdown-list ${hover == 0 && 'w--open'}`} id="w-dropdown-list-0" aria-labelledby="w-dropdown-toggle-0">
-                        <a href="https://exchange.kishu.com/" target="_blank" class="dropdown-link w-dropdown-link" tabindex="0">Shipoo Swap</a>
-                        <a href="https://exchange.kishu.com/#/paw" target="_blank" class="dropdown-link _2 w-dropdown-link" tabindex="0">Paw Print</a>
-                        <a href="https://crate.kishu.com/" target="_blank" class="dropdown-link _2 w-dropdown-link" tabindex="0">Shipoo Crate</a>
-                        <a href="https://kishuverse.kishu.com/" target="_blank" class="dropdown-link _2 w-dropdown-link" tabindex="0">Kishuverse</a>
-                        </nav>
-                    </div>
                     <div data-hover="true" data-delay="0" class="dropdown w-dropdown" style={{zIndex: hover == 1 ? 901 : 0}} onMouseEnter={() => {setHover(1)}} onMouseLeave={() => {setHover(-1)}}>
                         <div class={`dropdown-toggle w-dropdown-toggle ${hover == 1 && 'w--open'}`} id="w-dropdown-toggle-1" aria-controls="w-dropdown-list-1" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0" >
                         <div class="icon w-icon-dropdown-toggle" aria-hidden="true"></div>
@@ -75,7 +63,6 @@ export default function Header({ page }) {
                         <CloseIcon style={{height: '20px', width: '20px'}} onClick={onClose}/>
                     </ModalHeader>
                     
-                    <div style={{fontSize: '24px', }}>APPS</div>
                     <div style={{fontSize: '24px', }}>COMMUNITY</div>
                     <div style={{fontSize: '24px', }}>PRICE CHART</div>
                     <div style={{fontSize: '24px', }}>TOKEN DETAILS</div>

@@ -688,7 +688,7 @@ function Moonmap() {
                                     </div>
                                     <div class="phase-activity-item">
                                         <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
-                                        <p class="no-bottom-padding">Kishuverse NFT Collection<br/></p>
+                                        <p class="no-bottom-padding">Shipoo NFT Collection<br/></p>
                                     </div>
                                     <div class="phase-activity-item">
                                         <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark off"/>
@@ -849,26 +849,11 @@ function Follow() {
                     <a href="https://t.me/kishuinucommunity" target="_blank" class="social-icon-item w-inline-block">
                         <div class="fa-social-icon"></div>
                     </a>
-                    <a href="https://www.reddit.com/r/KishuInu/" target="_blank" class="social-icon-item w-inline-block">
-                        <div class="fa-social-icon"></div>
-                    </a>
                     <a href="https://twitter.com/inukishu" target="_blank" class="social-icon-item w-inline-block">
                         <div class="fa-social-icon"></div>
                     </a>
-                    <a href="https://www.instagram.com/inukishu" target="_blank" class="social-icon-item w-inline-block">
-                        <div class="fa-social-icon"></div>
-                    </a>
-                    <a href="https://www.youtube.com/channel/UCBp7_9zm3yCnkT1JK76zF9A" target="_blank" class="social-icon-item w-inline-block">
-                        <div class="fa-social-icon"></div>
-                    </a>
                     <a href="https://kishuinu.medium.com/" target="_blank" class="social-icon-item w-inline-block">
                         <div class="fa-social-icon"></div>
-                    </a>
-                    <a href="https://github.com/Shipoo-Inu/Shipoo-Inu-Contracts" target="_blank" class="social-icon-item w-inline-block">
-                        <div class="fa-social-icon"></div>
-                    </a>
-                    <a href="https://discord.com/invite/vJJQ5whs7e" target="_blank" class="social-icon-item w-inline-block">
-                        <div class="fa-social-icon"></div>
                     </a>
                 </div>
             </div>
