@@ -112,30 +112,15 @@ function Home() {
                         <a href="https://www.tenshicoin.io/" target="_blank" class="cta-button tenshi w-button">$TENSHI&nbsp;WEB</a>
                     </div>
                     <div class="social-icons is--hero">
-                    <a href="https://t.me/kishuinucommunity" target="_blank" class="social-icon-item is--hero w-inline-block">
-                        <div class="fa-social-icon is--hero"></div>
-                    </a>
-                    <a href="https://www.reddit.com/r/KishuInu/" target="_blank" class="social-icon-item is--hero w-inline-block">
-                        <div class="fa-social-icon is--hero"></div>
-                    </a>
-                    <a href="https://twitter.com/inukishu" target="_blank" class="social-icon-item is--hero w-inline-block">
-                        <div class="fa-social-icon is--hero"></div>
-                    </a>
-                    <a href="https://www.instagram.com/inukishu" target="_blank" class="social-icon-item is--hero w-inline-block">
-                        <div class="fa-social-icon is--hero"></div>
-                    </a>
-                    <a href="https://www.youtube.com/channel/UCBp7_9zm3yCnkT1JK76zF9A" target="_blank" class="social-icon-item is--hero w-inline-block">
-                        <div class="fa-social-icon is--hero"></div>
-                    </a>
-                    <a href="https://kishuinu.medium.com/" target="_blank" class="social-icon-item is--hero w-inline-block">
-                        <div class="fa-social-icon is--hero"></div>
-                    </a>
-                    <a href="https://github.com/Shipoo-Inu/Shipoo-Inu-Contracts" target="_blank" class="social-icon-item is--hero w-inline-block">
-                        <div class="fa-social-icon is--hero"></div>
-                    </a>
-                    <a href="https://discord.com/invite/vJJQ5whs7e" target="_blank" class="social-icon-item is--hero w-inline-block">
-                        <div class="fa-social-icon is--hero"></div>
-                    </a>
+                        <a href="https://t.me/kishuinucommunity" target="_blank" class="social-icon-item is--hero w-inline-block">
+                            <div class="fa-social-icon is--hero"></div>
+                        </a>
+                        <a href="https://twitter.com/inukishu" target="_blank" class="social-icon-item is--hero w-inline-block">
+                            <div class="fa-social-icon is--hero"></div>
+                        </a>
+                        <a href="https://kishuinu.medium.com/" target="_blank" class="social-icon-item is--hero w-inline-block">
+                            <div class="fa-social-icon is--hero"></div>
+                        </a>
                     </div>
                 </div>
                 <div id="w-node-c5f9f19b-7168-f059-943c-ccb78b848fa7-52018772" class="hero-graphics-wrapper">
