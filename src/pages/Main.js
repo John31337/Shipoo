@@ -250,13 +250,13 @@ function Stats1() {
                                 <h5 class="gray">Thanks to user transactions (DeFi wallets only!)</h5>
                             </div>
                             <div class="flex-vertical">
-                                <h3 class="red is--tokenomics">420,690,000,000,000</h3>
+                                <h3 class="red is--tokenomics">420,690</h3>
                                 <h5 class="gray">TOTAL SUPPLY</h5>
                             </div>
                         </div>
                         <div id="price-chart" data-w-id="911dc789-cd8c-3157-6ceb-b918bd87e7db" class="tokenomics-text-item" style={{willChange: 'opacity, transform', opacity: getScrollValue(2), transform: `translate3d(0px, 40px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)`, transformStyle: 'preserve-3d'}}>
                             <div class="flex-vertical">
-                                <h3 id="holders" class="red is--tokenomics" style={{paddingBottom: 100}}>No taxes, no fees - it's that crap-tivatingly simple!</h3>
+                                <h3 id="holders" class="red is--tokenomics">No taxes, no fees - it's that crap-tivatingly simple!</h3>
                                 <h5 class="gray" style={{textTransform: 'none'}}>80% of the tokens plunged right into the porcelain pool of liquidity, LP tokens were flushed away, and the contract is pooperly renounced. The remaining 20% of the supply is nestled in a multi-poo-g wallet, destined to fertilize future centralized exchange listings, dungy bridges, and liquid-poo pools. You can sniff out this wallet with the ENS name "pepepoowallet.eth"</h5>
                             </div>
                         </div>
