@@ -300,7 +300,7 @@ function Moonmap() {
               <div class="section-heading">
                   <div class="accent-large">Liftoff</div>
                   <h2 class="h2-moonmap">Moonmap</h2>
-                  <p class="_w-660 centered">SHIPOO launched on April 17, 2023 and quickly became one of the most popular cryptocurrencies of 2023. This Moonmap is a breathing document that lays out key milestones the community aims to hit to continue rapid and decentralized development and moonlike features!<br/></p>
+                  <p class="_w-660 centered">PEPEPOO launched on April 17, 2023 and quickly became one of the most popular cryptocurrencies of 2023. This Moonmap is a breathing document that lays out key milestones the community aims to hit to continue rapid and decentralized development and moonlike features!<br/></p>
               </div>
           </div>
           <div class="moonmap-scrolling-wrapper"  ref={domRef}>
@@ -398,7 +398,7 @@ function Moonmap() {
                                   <div class="phase-activities">
                                       <div class="phase-activity-item">
                                           <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
-                                          <p class="no-bottom-padding">SHIPOO Swap (Decentralize Exchange)<br/></p>
+                                          <p class="no-bottom-padding">PEPEPOO Swap (Decentralize Exchange)<br/></p>
                                       </div>
                                       <div class="phase-activity-item">
                                           <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
@@ -429,15 +429,15 @@ function Moonmap() {
                                       </div>
                                       <div class="phase-activity-item">
                                           <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
-                                          <p class="no-bottom-padding">SHIPOO Crate (NFT Marketplace)<br/></p>
+                                          <p class="no-bottom-padding">PEPEPOO Crate (NFT Marketplace)<br/></p>
                                       </div>
                                       <div class="phase-activity-item">
                                           <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
-                                          <p class="no-bottom-padding">SHIPOO Paw Print (Wallet Tracker)<br/></p>
+                                          <p class="no-bottom-padding">PEPEPOO Paw Print (Wallet Tracker)<br/></p>
                                       </div>
                                       <div class="phase-activity-item">
                                           <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
-                                          <p class="no-bottom-padding">SHIPOO sWag (Merchandise Store)<br/></p>
+                                          <p class="no-bottom-padding">PEPEPOO sWag (Merchandise Store)<br/></p>
                                       </div>
                                       <div class="phase-activity-item">
                                           <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
@@ -507,7 +507,7 @@ function Moonmap() {
                   </div>
                   <div class="team-text-wrapper">
                       <h2 class="h2-team">Join us</h2>
-                      <p class="_w-660">SHIPOO is a decentralized group of 20+ volunteers community managers with expertise in development, moderation and group coordination. Feel free to say "Hi!".<br/></p>
+                      <p class="_w-660">PEPEPOO is a decentralized group of 20+ volunteers community managers with expertise in development, moderation and group coordination. Feel free to say "Hi!".<br/></p>
                       <div class="hero-buttons">
                           <a href="mailto:woof@kishu.com?subject=Volunteer%20Application" class="cta-button red-button w-button">join US</a>
                           <a href="mailto:woof@kishu.com?subject=Partnership%20Proposal" class="cta-button w-button">PARTNER WITH US</a>
