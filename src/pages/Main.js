@@ -81,10 +81,10 @@ function Home() {
         <div class="hero-content-wrapper">
             <div class="_2-col-grid is--hero">
                 <div id="w-node-_151b762e-3975-8bd9-09a6-b15858026423-52018772" class="hero-text">
-                    <h1 class="display">Bring your dream to the moon.</h1>
-                    <p class="is--hero-text">Shipoo CEO ($SHIPOO) is a community-focused, decentralized cryptocurrency with instant rewards thanks to active users!🐶<br/></p>
+                    <h1 class="display">Bring your PEPE to the moon.</h1>
+                    <p class="is--hero-text">Shipoo CEO ($PEPE) is a community-focused, decentralized cryptocurrency with instant rewards thanks to active users!🐶<br/></p>
                     <div class="hero-buttons">
-                        <a href="https://kishu.com/get" target="_blank" class="cta-button red-button w-button">GET $SHIPOO</a>
+                        <a href="https://kishu.com/get" target="_blank" class="cta-button red-button w-button">GET $PEPE</a>
                         <div class="hero-buttons-social">
                             <a href="https://t.me/kishuinucommunity" target="_blank" class="social-icon-item is--hero w-inline-block">
                                 <div class="fa-social-icon is--hero"></div>
@@ -117,7 +117,7 @@ function How() {
     <section id="how-to-buy" class="how-to-get wf-section" >
         <div class="container-1800">
             <div class="section-heading">
-                <h2 class="h2-what-is-kishu">How to get $SHIPOO</h2>
+                <h2 class="h2-what-is-kishu">How to get $PEPE</h2>
                 <div class="accent-large">Add</div>
             </div>
             <div class="steps-container" style={{display: 'flex'}}>
@@ -143,7 +143,7 @@ function How() {
                                   </div>
                                   <div class="htb-text">
                                       <h4>Create a MetaMask Wallet</h4>
-                                      <p>$SHIPOO token is available on the Ethereum blockchain. MetaMask is a third party ERC20 (Ethereum) browser wallet, and the very best at that! On Google Chrome, visit 
+                                      <p>$PEPE token is available on the Ethereum blockchain. MetaMask is a third party ERC20 (Ethereum) browser wallet, and the very best at that! On Google Chrome, visit 
                                         <a href="https://metamask.io/" target="_blank"><strong> metamask.io</strong></a> to download the extension and set up a wallet. On mobile? Get MetaMask's app for <a href="https://metamask.app.link/skAH3BaF99" target="_blank"><strong>iPhone</strong></a> or <a href="https://metamask.app.link/bxwkE8oF99" target="_blank"><strong>Android</strong></a>.</p>
                                   </div>
                               </div>
@@ -167,20 +167,21 @@ function How() {
                                       <div class="htb-number-text">03</div>
                                   </div>
                                   <div class="htb-text">
-                                      <h4 class="heading-3">Swap $ETH for $SHIPOO<br/></h4>
-                                      <p>Enter the amount of $ETH you would like to swap for $SHIPOO. Click <strong>Connect Wallet</strong> then <strong>Swap</strong><br/></p>
+                                      <h4 class="heading-3">Swap $ETH for $PEPE<br/></h4>
+                                      <p>Enter the amount of $ETH you would like to swap for $PEPE. Click <strong>Connect Wallet</strong> then <strong>Swap</strong><br/></p>
                                   </div>
                               </div>
                           </div>
                       </div>
                   </div>
               </div>              
-              <div class="dog-frisbee-wrapper">
+              {/* <div class="dog-frisbee-wrapper">
                   <div id="w-node-_82d26454-4b9c-a99d-09e5-0cacf9e7004a-52018772" class="frisbee-wrapper">
                     <img src={ki_facer} loading="lazy" width="515" sizes="100vw" srcset={`${ki_face_800} 800w, ${ki_facer} 1030w`} alt="" class="image-5"/>
-                    <img src={shape3} loading="lazy" sizes="100vw" srcset={`${shape3_500} 500w, ${shape3} 1024w`} alt="" class="image-6"/>
                   </div>
-              </div>
+              </div> */}
+              <div style={{width: '100%', height: '100%', display: 'flex', flexDirection: 'column'}}><iframe src="https://app.uniswap.org/#/swap?outputCurrency=0x7345577Fc896952426922dd886dB641A4Fe13387" height="660px" width="100%">
+                </iframe></div>
             </div>
 
         </div>
@@ -241,31 +242,22 @@ function Stats1() {
                     <div id="w-node-b83854f4-0edc-97bf-60d8-a3002264f576-52018772" class="right-col">
                         <div data-w-id="f260eb35-8ea4-0380-4a92-2422d676718f" class="tokenomics-text-item" style={{willChange: 'opacity, transform', opacity: getScrollValue(1), transform: `translate3d(0px, 40px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)`, transformStyle: 'preserve-3d'}}>
                             <div class="flex-vertical">
-                                <h3 class="red is--tokenomics">$SHIPOO</h3>
+                                <h3 class="red is--tokenomics">$PEPE</h3>
                                 <h5 class="gray">TOKEN SYMBOL</h5>
                             </div>
                             <div class="flex-vertical centered">
-                                <h3 class="red is--tokenomics">2% Usage Reward</h3>
+                                <h3 class="red is--tokenomics">20% Usage Reward</h3>
                                 <h5 class="gray">Thanks to user transactions (DeFi wallets only!)</h5>
                             </div>
                             <div class="flex-vertical">
-                                <h3 class="red is--tokenomics">100 Quadrillion</h3>
+                                <h3 class="red is--tokenomics">420,690,000,000,000</h3>
                                 <h5 class="gray">TOTAL SUPPLY</h5>
                             </div>
                         </div>
                         <div id="price-chart" data-w-id="911dc789-cd8c-3157-6ceb-b918bd87e7db" class="tokenomics-text-item" style={{willChange: 'opacity, transform', opacity: getScrollValue(2), transform: `translate3d(0px, 40px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)`, transformStyle: 'preserve-3d'}}>
                             <div class="flex-vertical">
-                                <h3 id="holders" class="red is--tokenomics">200,000+</h3>
-                                <h5 class="gray">HOLDERS</h5>
-                            </div>
-                            <div class="flex-vertical centered">
-                                <h3 id="marketcap" class="red is--tokenomics">Loading</h3>
-                                <h5 class="gray">MARKET CAP</h5>
-                            </div>
-                            <div class="flex-vertical">
-                                <h3 id="price" class="red is--tokenomics">Loading<br/></h3>
-                                <h5 class="gray">CURRENT PRICE</h5>
-                                <a href="https://www.coingecko.com/en/coins/kishu-inu" target="_blank" class="link">Price Chart</a>
+                                <h3 id="holders" class="red is--tokenomics" style={{paddingBottom: 100}}>No taxes, no fees - it's that crap-tivatingly simple!</h3>
+                                <h5 class="gray" style={{textTransform: 'none'}}>80% of the tokens plunged right into the porcelain pool of liquidity, LP tokens were flushed away, and the contract is pooperly renounced. The remaining 20% of the supply is nestled in a multi-poo-g wallet, destined to fertilize future centralized exchange listings, dungy bridges, and liquid-poo pools. You can sniff out this wallet with the ENS name "pepepoowallet.eth"</h5>
                             </div>
                         </div>
                     </div>
@@ -275,259 +267,257 @@ function Stats1() {
     </section>    
     );
 }
-
 function Moonmap() {
-  const domRef = React.useRef();
-  const [percentage, position] = useVisibiltyPercentage(domRef, {throttle: 64});
-  console.log('position', percentage, position);
-
-  const getScrollValue = (item) => {
-    var value = 0;
-    switch(item) {
-      case 1:
-        if(position == "bottom" && percentage > 0.3)
-          value = (percentage - 0.3) * 300;
-        else if(position == "top") value = 210;
-        break;
-      case 2:
-        if(position == "bottom" && percentage > 0.3 && percentage <= 0.5)
-          value = (percentage - 0.3) * 100;
-        else if(position == "top") value = 20;
-        break;
-      case 3:
-        if(position == "bottom" && percentage > 0.3 && percentage <= 0.5)
-          value = (percentage - 0.3) * 20;
-        else if(position == "top") value = 4;
-        break;
+    const domRef = React.useRef();
+    const [percentage, position] = useVisibiltyPercentage(domRef, {throttle: 64});
+    console.log('position', percentage, position);
+  
+    const getScrollValue = (item) => {
+      var value = 0;
+      switch(item) {
+        case 1:
+          if(position == "bottom" && percentage > 0.3)
+            value = (percentage - 0.3) * 300;
+          else if(position == "top") value = 210;
+          break;
+        case 2:
+          if(position == "bottom" && percentage > 0.3 && percentage <= 0.5)
+            value = (percentage - 0.3) * 100;
+          else if(position == "top") value = 20;
+          break;
+        case 3:
+          if(position == "bottom" && percentage > 0.3 && percentage <= 0.5)
+            value = (percentage - 0.3) * 20;
+          else if(position == "top") value = 4;
+          break;
+      }
+      return value;
     }
-    return value;
+  
+    return(
+      <div id="moonmap" class="moonmap wf-section">
+          <div class="container-1800">
+              <div class="section-heading">
+                  <div class="accent-large">Liftoff</div>
+                  <h2 class="h2-moonmap">Moonmap</h2>
+                  <p class="_w-660 centered">SHIPOO launched on April 17, 2023 and quickly became one of the most popular cryptocurrencies of 2023. This Moonmap is a breathing document that lays out key milestones the community aims to hit to continue rapid and decentralized development and moonlike features!<br/></p>
+              </div>
+          </div>
+          <div class="moonmap-scrolling-wrapper"  ref={domRef}>
+              <div class="moonmap-horiztonal-scrolling-container">
+                  <div class="sticky-container horizontal">
+                      <div class="flex-horizontal" style={{willChange: 'transform', transform: `translate3d(-${getScrollValue(1)}em, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)`, transformStyle: 'preserve-3d'}}>
+                          <div class="kishu-rocket-wrapper">
+                              <img src={kishu_rocket_alone} loading="lazy" sizes="(max-width: 479px) 336px, (max-width: 1919px) 593.828125px, 37vw" srcset={`${kishu_rocket_alone_500} 500w, ${kishu_rocket_alone} 791w`} alt="" class="kishu-rocket" style={{willChange: 'transform', transform: `translate3d(-${getScrollValue(2)}em, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)`, transformStyle: 'preserve-3d'}}/>
+                              <img src={kishu_rocket_stars} loading="lazy" sizes="(max-width: 479px) 336px, (max-width: 1919px) 672px, 42vw" srcset={`${kishu_rocket_stars_500} 500w, ${kishu_rocket_stars_800} 800w, ${kishu_rocket_stars} 915w`} alt="" class="rocket-stars" style={{willChange: 'transform', transform: `translate3d(-${getScrollValue(3)}em, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)`, transformStyle: 'preserve-3d'}}/>
+                              <img src={kishu_rocket_trail} loading="lazy" srcset={`${kishu_rocket_trail_500} 500w, ${kishu_rocket_trail_800} 800w, ${kishu_rocket_trail} 805w`} sizes="(max-width: 479px) 100vw, (max-width: 1919px) 672px, 805px" alt="" class="rocket-trail" style={{willChange: 'width, height, opacity, transform', transform: `translate3d(-${getScrollValue(2)}em, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)`, transformStyle: 'preserve-3d', opacity: getScrollValue(2) / 20, width: `${getScrollValue(2) * 5}%`}}/>
+                              <img src={kishu_rocket_smoke} loading="lazy" width="164.5" alt="" class="rocket-smoke" style={{willChange: 'transform, opacity', transform: `translate3d(${getScrollValue(2) * 0.9}em, -3em, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)`, transformStyle: 'preserve-3d', opacity: getScrollValue(2) / 20}}/>
+                              <img src={kishu_rocket_space} loading="lazy" data-w-id="b901c4bf-ff2e-dbae-ab88-d6aa4c2268f2" sizes="(max-width: 479px) 336px, (max-width: 1919px) 672px, 710px" srcset={`${kishu_rocket_space_500} 500w, ${kishu_rocket_space} 710w`} alt="" class="space" style={{willChange: 'transform', transform: `translate3d(0em, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)`, transformStyle: 'preserve-3d'}}/>
+                          </div>
+                          <div class="moonmap-phase-wrapper">
+                              <div class="phase">
+                                  <div class="accent-small centered">PHASE 1</div>
+                              </div>
+                              <div class="phase-details">
+                                  <h6 class="phase-status">PHASE COMPLETE</h6>
+                                  <h3 class="phase-name">Launch</h3>
+                                  <div class="phase-activities">
+                                      <div class="phase-activity-item">
+                                          <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
+                                          <p class="no-bottom-padding">1,000 Holders</p>
+                                      </div>
+                                      <div class="phase-activity-item">
+                                          <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
+                                          <p class="no-bottom-padding">Website Launch</p>
+                                      </div>
+                                      <div class="phase-activity-item">
+                                          <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
+                                          <p class="no-bottom-padding">CoinGecko Listing</p>
+                                      </div>
+                                      <div class="phase-activity-item">
+                                          <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
+                                          <p class="no-bottom-padding">2,000 Telegram Members </p>
+                                      </div>
+                                      <div class="phase-activity-item">
+                                          <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
+                                          <p class="no-bottom-padding">Community Marketing Fund</p>
+                                      </div>
+                                      <div class="phase-activity-item">
+                                          <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
+                                          <p class="no-bottom-padding">Marketing Campaign</p>
+                                      </div>
+                                      <div class="phase-activity-item">
+                                          <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
+                                          <p class="no-bottom-padding">CoinMarketCap Listing</p>
+                                      </div>
+                                      <div class="phase-activity-item">
+                                          <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
+                                          <p class="no-bottom-padding">5,000 Holders</p>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="moonmap-phase-wrapper">
+                              <div class="phase">
+                                  <div class="accent-small centered">PHASE 2</div>
+                              </div>
+                              <div class="phase-details">
+                                  <h6 class="phase-status">PHASE COMPLETE</h6>
+                                  <h3 class="phase-name">Growth</h3>
+                                  <div class="phase-activities">
+                                      <div class="phase-activity-item">
+                                          <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
+                                          <p class="no-bottom-padding">5,000 Telegram Members</p>
+                                      </div>
+                                      <div class="phase-activity-item">
+                                          <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
+                                          <p class="no-bottom-padding">Website Redesign</p>
+                                      </div>
+                                      <div class="phase-activity-item">
+                                          <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
+                                          <p class="no-bottom-padding">10,000 Holders</p>
+                                      </div>
+                                      <div class="phase-activity-item">
+                                          <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
+                                          <p class="no-bottom-padding">10,000 Telegram Members</p>
+                                      </div>
+                                      <div class="phase-activity-item">
+                                          <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
+                                          <p class="no-bottom-padding">20,000 Holders</p>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="moonmap-phase-wrapper">
+                              <div class="phase">
+                                  <div class="accent-small centered">PHASE 3</div>
+                              </div>
+                              <div class="phase-details">
+                                  <h6 class="phase-status">PHASE COMPLETE</h6>
+                                  <h3 class="phase-name">Expansion</h3>
+                                  <div class="phase-activities">
+                                      <div class="phase-activity-item">
+                                          <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
+                                          <p class="no-bottom-padding">SHIPOO Swap (Decentralize Exchange)<br/></p>
+                                      </div>
+                                      <div class="phase-activity-item">
+                                          <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
+                                          <p class="no-bottom-padding">Initial CEX Listings (Hotbit, Bilaxy, CoinTiger)<br/></p>
+                                      </div>
+                                      <div class="phase-activity-item">
+                                          <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
+                                          <p class="no-bottom-padding">15,000 Telegram Members<br/></p>
+                                      </div>
+                                      <div class="phase-activity-item">
+                                          <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
+                                          <p class="no-bottom-padding">30,000 Holders<br/></p>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="moonmap-phase-wrapper">
+                              <div class="phase">
+                                  <div class="accent-small centered">PHASE 4</div>
+                              </div>
+                              <div class="phase-details">
+                                  <h6 class="phase-status">PHASE COMPLETE</h6>
+                                  <h3 class="phase-name">Utility<br/></h3>
+                                  <div class="phase-activities">
+                                      <div class="phase-activity-item">
+                                          <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
+                                      <p class="no-bottom-padding">100,000 Holders<br/></p>
+                                      </div>
+                                      <div class="phase-activity-item">
+                                          <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
+                                          <p class="no-bottom-padding">SHIPOO Crate (NFT Marketplace)<br/></p>
+                                      </div>
+                                      <div class="phase-activity-item">
+                                          <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
+                                          <p class="no-bottom-padding">SHIPOO Paw Print (Wallet Tracker)<br/></p>
+                                      </div>
+                                      <div class="phase-activity-item">
+                                          <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
+                                          <p class="no-bottom-padding">SHIPOO sWag (Merchandise Store)<br/></p>
+                                      </div>
+                                      <div class="phase-activity-item">
+                                          <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
+                                          <p class="no-bottom-padding">More CEX Listings<br/></p>
+                                      </div>
+                                      <div class="phase-activity-item">
+                                          <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
+                                          <p class="no-bottom-padding">50,000 Telegram Members<br/></p>
+                                      </div>
+                                      <div class="phase-activity-item">
+                                          <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
+                                          <p class="no-bottom-padding">Influencer Awareness Partnerships<br/></p>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="moonmap-phase-wrapper">
+                              <div class="phase">
+                                  <div class="accent-small centered">PHASE 5</div>
+                              </div>
+                              <div class="phase-details">
+                                  <h6 class="phase-status in-progress">IN PROGRESS</h6>
+                                  <h3 class="phase-name">Prosperity<br/></h3>
+                                  <div class="phase-activities">
+                                      <div class="phase-activity-item">
+                                          <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark off"/>
+                                          <p class="no-bottom-padding">500,000 Holders<br/></p>
+                                      </div>
+                                      <div class="phase-activity-item">
+                                          <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
+                                          <p class="no-bottom-padding">Shipoo NFT Collection<br/></p>
+                                      </div>
+                                      <div class="phase-activity-item">
+                                          <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark off"/>
+                                          <p class="no-bottom-padding">Shipoo CEO Charity Foundation<br/></p>
+                                      </div>
+                                      <div class="phase-activity-item">
+                                          <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark off"/>
+                                          <p class="no-bottom-padding">Tier 1 CEX Listings<br/></p>
+                                      </div>
+                                      <div class="phase-activity-item">
+                                          <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark off"/>
+                                          <p class="no-bottom-padding">More Revealed Soon...<br/></p>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>    
+    )
   }
-
-  return(
-    <div id="moonmap" class="moonmap wf-section">
-        <div class="container-1800">
-            <div class="section-heading">
-                <div class="accent-large">Liftoff</div>
-                <h2 class="h2-moonmap">Moonmap</h2>
-                <p class="_w-660 centered">SHIPOO launched on April 17, 2023 and quickly became one of the most popular cryptocurrencies of 2023. This Moonmap is a breathing document that lays out key milestones the community aims to hit to continue rapid and decentralized development and moonlike features!<br/></p>
-            </div>
-        </div>
-        <div class="moonmap-scrolling-wrapper"  ref={domRef}>
-            <div class="moonmap-horiztonal-scrolling-container">
-                <div class="sticky-container horizontal">
-                    <div class="flex-horizontal" style={{willChange: 'transform', transform: `translate3d(-${getScrollValue(1)}em, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)`, transformStyle: 'preserve-3d'}}>
-                        <div class="kishu-rocket-wrapper">
-                            <img src={kishu_rocket_alone} loading="lazy" sizes="(max-width: 479px) 336px, (max-width: 1919px) 593.828125px, 37vw" srcset={`${kishu_rocket_alone_500} 500w, ${kishu_rocket_alone} 791w`} alt="" class="kishu-rocket" style={{willChange: 'transform', transform: `translate3d(-${getScrollValue(2)}em, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)`, transformStyle: 'preserve-3d'}}/>
-                            <img src={kishu_rocket_stars} loading="lazy" sizes="(max-width: 479px) 336px, (max-width: 1919px) 672px, 42vw" srcset={`${kishu_rocket_stars_500} 500w, ${kishu_rocket_stars_800} 800w, ${kishu_rocket_stars} 915w`} alt="" class="rocket-stars" style={{willChange: 'transform', transform: `translate3d(-${getScrollValue(3)}em, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)`, transformStyle: 'preserve-3d'}}/>
-                            <img src={kishu_rocket_trail} loading="lazy" srcset={`${kishu_rocket_trail_500} 500w, ${kishu_rocket_trail_800} 800w, ${kishu_rocket_trail} 805w`} sizes="(max-width: 479px) 100vw, (max-width: 1919px) 672px, 805px" alt="" class="rocket-trail" style={{willChange: 'width, height, opacity, transform', transform: `translate3d(-${getScrollValue(2)}em, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)`, transformStyle: 'preserve-3d', opacity: getScrollValue(2) / 20, width: `${getScrollValue(2) * 5}%`}}/>
-                            <img src={kishu_rocket_smoke} loading="lazy" width="164.5" alt="" class="rocket-smoke" style={{willChange: 'transform, opacity', transform: `translate3d(${getScrollValue(2) * 0.9}em, -3em, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)`, transformStyle: 'preserve-3d', opacity: getScrollValue(2) / 20}}/>
-                            <img src={kishu_rocket_space} loading="lazy" data-w-id="b901c4bf-ff2e-dbae-ab88-d6aa4c2268f2" sizes="(max-width: 479px) 336px, (max-width: 1919px) 672px, 710px" srcset={`${kishu_rocket_space_500} 500w, ${kishu_rocket_space} 710w`} alt="" class="space" style={{willChange: 'transform', transform: `translate3d(0em, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)`, transformStyle: 'preserve-3d'}}/>
-                        </div>
-                        <div class="moonmap-phase-wrapper">
-                            <div class="phase">
-                                <div class="accent-small centered">PHASE 1</div>
-                            </div>
-                            <div class="phase-details">
-                                <h6 class="phase-status">PHASE COMPLETE</h6>
-                                <h3 class="phase-name">Launch</h3>
-                                <div class="phase-activities">
-                                    <div class="phase-activity-item">
-                                        <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
-                                        <p class="no-bottom-padding">1,000 Holders</p>
-                                    </div>
-                                    <div class="phase-activity-item">
-                                        <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
-                                        <p class="no-bottom-padding">Website Launch</p>
-                                    </div>
-                                    <div class="phase-activity-item">
-                                        <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
-                                        <p class="no-bottom-padding">CoinGecko Listing</p>
-                                    </div>
-                                    <div class="phase-activity-item">
-                                        <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
-                                        <p class="no-bottom-padding">2,000 Telegram Members </p>
-                                    </div>
-                                    <div class="phase-activity-item">
-                                        <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
-                                        <p class="no-bottom-padding">Community Marketing Fund</p>
-                                    </div>
-                                    <div class="phase-activity-item">
-                                        <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
-                                        <p class="no-bottom-padding">Marketing Campaign</p>
-                                    </div>
-                                    <div class="phase-activity-item">
-                                        <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
-                                        <p class="no-bottom-padding">CoinMarketCap Listing</p>
-                                    </div>
-                                    <div class="phase-activity-item">
-                                        <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
-                                        <p class="no-bottom-padding">5,000 Holders</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="moonmap-phase-wrapper">
-                            <div class="phase">
-                                <div class="accent-small centered">PHASE 2</div>
-                            </div>
-                            <div class="phase-details">
-                                <h6 class="phase-status">PHASE COMPLETE</h6>
-                                <h3 class="phase-name">Growth</h3>
-                                <div class="phase-activities">
-                                    <div class="phase-activity-item">
-                                        <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
-                                        <p class="no-bottom-padding">5,000 Telegram Members</p>
-                                    </div>
-                                    <div class="phase-activity-item">
-                                        <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
-                                        <p class="no-bottom-padding">Website Redesign</p>
-                                    </div>
-                                    <div class="phase-activity-item">
-                                        <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
-                                        <p class="no-bottom-padding">10,000 Holders</p>
-                                    </div>
-                                    <div class="phase-activity-item">
-                                        <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
-                                        <p class="no-bottom-padding">10,000 Telegram Members</p>
-                                    </div>
-                                    <div class="phase-activity-item">
-                                        <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
-                                        <p class="no-bottom-padding">20,000 Holders</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="moonmap-phase-wrapper">
-                            <div class="phase">
-                                <div class="accent-small centered">PHASE 3</div>
-                            </div>
-                            <div class="phase-details">
-                                <h6 class="phase-status">PHASE COMPLETE</h6>
-                                <h3 class="phase-name">Expansion</h3>
-                                <div class="phase-activities">
-                                    <div class="phase-activity-item">
-                                        <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
-                                        <p class="no-bottom-padding">SHIPOO Swap (Decentralize Exchange)<br/></p>
-                                    </div>
-                                    <div class="phase-activity-item">
-                                        <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
-                                        <p class="no-bottom-padding">Initial CEX Listings (Hotbit, Bilaxy, CoinTiger)<br/></p>
-                                    </div>
-                                    <div class="phase-activity-item">
-                                        <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
-                                        <p class="no-bottom-padding">15,000 Telegram Members<br/></p>
-                                    </div>
-                                    <div class="phase-activity-item">
-                                        <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
-                                        <p class="no-bottom-padding">30,000 Holders<br/></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="moonmap-phase-wrapper">
-                            <div class="phase">
-                                <div class="accent-small centered">PHASE 4</div>
-                            </div>
-                            <div class="phase-details">
-                                <h6 class="phase-status">PHASE COMPLETE</h6>
-                                <h3 class="phase-name">Utility<br/></h3>
-                                <div class="phase-activities">
-                                    <div class="phase-activity-item">
-                                        <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
-                                    <p class="no-bottom-padding">100,000 Holders<br/></p>
-                                    </div>
-                                    <div class="phase-activity-item">
-                                        <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
-                                        <p class="no-bottom-padding">SHIPOO Crate (NFT Marketplace)<br/></p>
-                                    </div>
-                                    <div class="phase-activity-item">
-                                        <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
-                                        <p class="no-bottom-padding">SHIPOO Paw Print (Wallet Tracker)<br/></p>
-                                    </div>
-                                    <div class="phase-activity-item">
-                                        <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
-                                        <p class="no-bottom-padding">SHIPOO sWag (Merchandise Store)<br/></p>
-                                    </div>
-                                    <div class="phase-activity-item">
-                                        <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
-                                        <p class="no-bottom-padding">More CEX Listings<br/></p>
-                                    </div>
-                                    <div class="phase-activity-item">
-                                        <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
-                                        <p class="no-bottom-padding">50,000 Telegram Members<br/></p>
-                                    </div>
-                                    <div class="phase-activity-item">
-                                        <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
-                                        <p class="no-bottom-padding">Influencer Awareness Partnerships<br/></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="moonmap-phase-wrapper">
-                            <div class="phase">
-                                <div class="accent-small centered">PHASE 5</div>
-                            </div>
-                            <div class="phase-details">
-                                <h6 class="phase-status in-progress">IN PROGRESS</h6>
-                                <h3 class="phase-name">Prosperity<br/></h3>
-                                <div class="phase-activities">
-                                    <div class="phase-activity-item">
-                                        <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark off"/>
-                                        <p class="no-bottom-padding">500,000 Holders<br/></p>
-                                    </div>
-                                    <div class="phase-activity-item">
-                                        <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark"/>
-                                        <p class="no-bottom-padding">Shipoo NFT Collection<br/></p>
-                                    </div>
-                                    <div class="phase-activity-item">
-                                        <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark off"/>
-                                        <p class="no-bottom-padding">Shipoo CEO Charity Foundation<br/></p>
-                                    </div>
-                                    <div class="phase-activity-item">
-                                        <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark off"/>
-                                        <p class="no-bottom-padding">Tier 1 CEX Listings<br/></p>
-                                    </div>
-                                    <div class="phase-activity-item">
-                                        <img src={check_mark_green} loading="lazy" alt="" class="green-checkmark off"/>
-                                        <p class="no-bottom-padding">More Revealed Soon...<br/></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>    
-  )
-}
-
-function Team() {
-  return (
-    <div id="team" class="community wf-section">
-        <div class="container-1800">
-            <div class="section-heading is--team">
-                <div class="accent-large">Team</div>
-            </div>
-            <div class="_2-col-grid offset-up">
-                <div id="w-node-_391e2546-a76a-347f-e976-6f8a9a5ab3a6-52018772" class="team-img-wrapper">
-                    <img src={background_shape} loading="lazy" width="884" sizes="(max-width: 767px) 100vw, (max-width: 991px) 34vw, (max-width: 1919px) 46vw, 100vw" srcset={`${background_shape_500} 500w, ${background_shape_800} 800w, ${background_shape} 857w`} alt="" class="team-img"/>
-                    <img src={v2_big} loading="lazy" alt="" class="image-21"/>
-                </div>
-                <div class="team-text-wrapper">
-                    <h2 class="h2-team">Join us</h2>
-                    <p class="_w-660">SHIPOO is a decentralized group of 20+ volunteers community managers with expertise in development, moderation and group coordination. Feel free to say "Hi!".<br/></p>
-                    <div class="hero-buttons">
-                        <a href="mailto:woof@kishu.com?subject=Volunteer%20Application" class="cta-button red-button w-button">join US</a>
-                        <a href="mailto:woof@kishu.com?subject=Partnership%20Proposal" class="cta-button w-button">PARTNER WITH US</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-  )
-}
-
+  
+  function Team() {
+    return (
+      <div id="team" class="community wf-section">
+          <div class="container-1800">
+              <div class="section-heading is--team">
+                  <div class="accent-large">Team</div>
+              </div>
+              <div class="_2-col-grid offset-up">
+                  <div id="w-node-_391e2546-a76a-347f-e976-6f8a9a5ab3a6-52018772" class="team-img-wrapper">
+                      <img src={background_shape} loading="lazy" width="884" sizes="(max-width: 767px) 100vw, (max-width: 991px) 34vw, (max-width: 1919px) 46vw, 100vw" srcset={`${background_shape_500} 500w, ${background_shape_800} 800w, ${background_shape} 857w`} alt="" class="team-img"/>
+                      <img src={v2_big} loading="lazy" alt="" class="image-21"/>
+                  </div>
+                  <div class="team-text-wrapper">
+                      <h2 class="h2-team">Join us</h2>
+                      <p class="_w-660">SHIPOO is a decentralized group of 20+ volunteers community managers with expertise in development, moderation and group coordination. Feel free to say "Hi!".<br/></p>
+                      <div class="hero-buttons">
+                          <a href="mailto:woof@kishu.com?subject=Volunteer%20Application" class="cta-button red-button w-button">join US</a>
+                          <a href="mailto:woof@kishu.com?subject=Partnership%20Proposal" class="cta-button w-button">PARTNER WITH US</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    )
+  }
 function Donate() {
   return (
   <section id="donate" class="donate wf-section">
@@ -538,7 +528,7 @@ function Donate() {
           <div class="_2-col-grid is--donate">
               <div id="w-node-_4cfe832b-f15b-0fee-a5f2-47da4f1898fd-52018772" class="donate-text-wrapper">
                   <h2>Feel like <br/>donating?</h2>
-                  <p class="_w-520 is--token-code">As a community-powered project, SHIPOO runs thanks to its amazing volunteers and generous donors. If you would like to pitch in, use the official ERC20 donation wallet here:<br/><br/>0xB7852D285f31B740318CAb51B<br/>d0E5E7936073725<br/><strong class="bold-text"><br/>Accepted: </strong>Any ERC20 token<strong class="bold-text"><br/>Preferred: </strong>$ETH, $USDC, $SHIPOO</p>
+                  <p class="_w-520 is--token-code">As a community-powered project, PEPE runs thanks to its amazing volunteers and generous donors. If you would like to pitch in, use the official ERC20 donation wallet here:<br/><br/>0xB7852D285f31B740318CAb51B<br/>d0E5E7936073725<br/><strong class="bold-text"><br/>Accepted: </strong>Any ERC20 token<strong class="bold-text"><br/>Preferred: </strong>$ETH, $USDC, $PEPE</p>
                   <a href="https://etherscan.io/address/0xB7852D285f31B740318CAb51Bd0E5E7936073725" target="_blank" class="cta-button red-button w-button">View on etherscan</a>
               </div>
               <div id="w-node-_4cfe832b-f15b-0fee-a5f2-47da4f1898fb-52018772" class="donate-imgs">
@@ -575,11 +565,10 @@ function Follow() {
     <div id="follow" class="footer wf-section">
         <div class="footer-relative-wrapper">
         <div class="footer-bg-imgs">
-          <img src={vector_smart} loading="lazy" width="380" sizes="(max-width: 479px) 100vw, 380px" srcset={`${vector_smart_500} 500w, ${vector_smart} 760w`} alt="" class="unicorn-kishu"/>
+          <img src={v2_big} loading="lazy" width="380" sizes="(max-width: 479px) 100vw, 380px" alt="" class="unicorn-kishu"/>
           <img src={poop} loading="lazy" width="240" alt="" class="unicorn-poop"/>
           </div>
             <div class="logo-and-social-wrapper">
-                <div class="logo-white"></div>
                 <div class="social-icons">
                     <a href="https://t.me/kishuinucommunity" target="_blank" class="social-icon-item w-inline-block">
                         <div class="fa-social-icon"></div>
@@ -613,7 +602,6 @@ export default function Main() {
       <How/>
       <Stats1/>
       <Moonmap/>
-      <Team/>
       <Donate/>
       <Follow/>
     </div>
